@@ -299,3 +299,6 @@ epub_copyright = "%s, Anton Burnashev" % date.today().year
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3.6", (None, "python-inv.txt")),
 }
+
+# locale
+locale_dirs = ["locale"]
