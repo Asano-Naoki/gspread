@@ -1,0 +1,423 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Anton Burnashev
+# This file is distributed under the same license as the gspread package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gspread 6.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-02 14:47+0900\n"
+"PO-Revision-Date: 2024-06-02 05:58+0000\n"
+"Language-Team: Japanese (https://app.transifex.com/asano-naoki/teams/193369/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../user-guide.rst:2
+msgid "Examples of gspread Usage"
+msgstr ""
+
+#: ../../user-guide.rst:4
+msgid "If you haven't yet authorized your app, read :doc:`oauth2` first."
+msgstr ""
+
+#: ../../user-guide.rst:8
+msgid "Opening a Spreadsheet"
+msgstr ""
+
+#: ../../user-guide.rst:10
+msgid "You can open a spreadsheet by its title as it appears in Google Docs:"
+msgstr ""
+
+#: ../../user-guide.rst:17
+msgid ""
+"If you have multiple Google Sheets with the same title, only the latest "
+"sheet will be opened by this method without throwing an error. It's "
+"recommended to open the sheet using its unique ID instead (see below)"
+msgstr ""
+
+#: ../../user-guide.rst:22
+msgid ""
+"If you want to be specific, use a key (which can be extracted from the "
+"spreadsheet's url):"
+msgstr ""
+
+#: ../../user-guide.rst:29
+msgid ""
+"Or, if you feel really lazy to extract that key, paste the entire "
+"spreadsheet's url"
+msgstr ""
+
+#: ../../user-guide.rst:37
+msgid "Creating a Spreadsheet"
+msgstr ""
+
+#: ../../user-guide.rst:39
+msgid "Use :meth:`~gspread.Client.create` to create a new blank spreadsheet:"
+msgstr ""
+
+#: ../../user-guide.rst:46
+msgid ""
+"If you're using a :ref:`service account <service-account>`, this new "
+"spreadsheet will be visible only to this account. To be able to access newly"
+" created spreadsheet from Google Sheets with your own Google account you "
+"*must* share it with your email. See how to share a spreadsheet in the "
+"section below."
+msgstr ""
+
+#: ../../user-guide.rst:52
+msgid "Sharing a Spreadsheet"
+msgstr ""
+
+#: ../../user-guide.rst:54
+msgid ""
+"If your email is *otto@example.com* you can share the newly created "
+"spreadsheet with yourself:"
+msgstr ""
+
+#: ../../user-guide.rst:61
+msgid ""
+"See :meth:`~gspread.models.Spreadsheet.share` documentation for a full list "
+"of accepted parameters."
+msgstr ""
+
+#: ../../user-guide.rst:65
+msgid "Selecting a Worksheet"
+msgstr ""
+
+#: ../../user-guide.rst:67
+msgid "Select worksheet by index. Worksheet indexes start from zero:"
+msgstr ""
+
+#: ../../user-guide.rst:73
+msgid "Or by title:"
+msgstr ""
+
+#: ../../user-guide.rst:79
+msgid "Or the most common case: *Sheet1*:"
+msgstr ""
+
+#: ../../user-guide.rst:85
+msgid "To get a list of all worksheets:"
+msgstr ""
+
+#: ../../user-guide.rst:93
+msgid "Creating a Worksheet"
+msgstr ""
+
+#: ../../user-guide.rst:101
+msgid "Deleting a Worksheet"
+msgstr ""
+
+#: ../../user-guide.rst:109
+msgid "Updating a Worksheet's name and color"
+msgstr ""
+
+#: ../../user-guide.rst:118
+msgid "Getting a Cell Value"
+msgstr ""
+
+#: ../../user-guide.rst:120 ../../user-guide.rst:301
+msgid ""
+"Using `A1 notation "
+"<https://developers.google.com/sheets/api/guides/concepts#a1_notation>`_:"
+msgstr ""
+
+#: ../../user-guide.rst:126 ../../user-guide.rst:307
+msgid "Or row and column coordinates:"
+msgstr ""
+
+#: ../../user-guide.rst:132
+msgid "If you want to get a cell formula:"
+msgstr ""
+
+#: ../../user-guide.rst:143
+msgid "Getting Unformatted Cell Value"
+msgstr ""
+
+#: ../../user-guide.rst:145
+msgid ""
+"Get the Unformatted value from a cell. Example: cells formatted as currency "
+"will display with the selected currency but they actual value is regular "
+"number."
+msgstr ""
+
+#: ../../user-guide.rst:149
+msgid "Get the formatted (as displayed) value:"
+msgstr ""
+
+#: ../../user-guide.rst:155
+msgid "Results in: ``[['$12.00']]``"
+msgstr ""
+
+#: ../../user-guide.rst:157
+msgid "Get the unformatted value:"
+msgstr ""
+
+#: ../../user-guide.rst:164
+msgid "Results in: ``[[12]]``"
+msgstr ""
+
+#: ../../user-guide.rst:167
+msgid "Getting Cell formula"
+msgstr ""
+
+#: ../../user-guide.rst:169
+msgid "Get the formula from a cell instead of the resulting value:"
+msgstr ""
+
+#: ../../user-guide.rst:176
+msgid "Resulsts in: ``[['=1/1024']]``"
+msgstr ""
+
+#: ../../user-guide.rst:180
+msgid "Getting All Values From a Row or a Column"
+msgstr ""
+
+#: ../../user-guide.rst:182
+msgid "Get all values from the first row:"
+msgstr ""
+
+#: ../../user-guide.rst:188
+msgid "Get all values from the first column:"
+msgstr ""
+
+#: ../../user-guide.rst:195
+msgid ""
+"So far we've been fetching a limited amount of data from a sheet. This works"
+" great until you need to get values from hundreds of cells or iterating over"
+" many rows or columns."
+msgstr ""
+
+#: ../../user-guide.rst:198
+msgid ""
+"Under the hood, gspread uses `Google Sheets API v4 "
+"<https://developers.google.com/sheets/api>`_. Most of the time when you call"
+" a gspread method to fetch or update a sheet gspread produces one HTTP API "
+"call."
+msgstr ""
+
+#: ../../user-guide.rst:202
+msgid ""
+"HTTP calls have performance costs. So if you find your app fetching values "
+"one by one in a loop or iterating over rows or columns you can improve the "
+"performance of the app by fetching data in one go."
+msgstr ""
+
+#: ../../user-guide.rst:206
+msgid ""
+"What's more, Sheets API v4 introduced `Usage Limits "
+"<https://developers.google.com/sheets/api/limits>`_ (as of this writing, 300"
+" requests per 60 seconds per project, and 60 requests per 60 seconds per "
+"user). When your application hits that limit, you get an "
+":exc:`~gspread.exceptions.APIError` `429 RESOURCE_EXHAUSTED`."
+msgstr ""
+
+#: ../../user-guide.rst:210
+msgid "Here are the methods that may help you to reduce API calls:"
+msgstr ""
+
+#: ../../user-guide.rst:212
+msgid ""
+":meth:`~gspread.models.Worksheet.get_all_values` fetches values from all of "
+"the cells of the sheet."
+msgstr ""
+
+#: ../../user-guide.rst:213
+msgid ""
+":meth:`~gspread.models.Worksheet.get` fetches all values from a range of "
+"cells."
+msgstr ""
+
+#: ../../user-guide.rst:214
+msgid ""
+":meth:`~gspread.models.Worksheet.batch_get` can fetch values from multiple "
+"ranges of cells with one API call."
+msgstr ""
+
+#: ../../user-guide.rst:215
+msgid ""
+":meth:`~gspread.models.Worksheet.update` lets you update a range of cells "
+"with a list of lists."
+msgstr ""
+
+#: ../../user-guide.rst:216
+msgid ""
+":meth:`~gspread.models.Worksheet.batch_update` lets you update multiple "
+"ranges of cells with one API call."
+msgstr ""
+
+#: ../../user-guide.rst:220
+msgid "Getting All Values From a Worksheet as a List of Lists"
+msgstr ""
+
+#: ../../user-guide.rst:228
+msgid "Getting All Values From a Worksheet as a List of Dictionaries"
+msgstr ""
+
+#: ../../user-guide.rst:236
+msgid "Finding a Cell"
+msgstr ""
+
+#: ../../user-guide.rst:238
+msgid "Find a cell matching a string:"
+msgstr ""
+
+#: ../../user-guide.rst:246
+msgid "Find a cell matching a regular expression"
+msgstr ""
+
+#: ../../user-guide.rst:253
+msgid "`find` returns `None` if value is not Found"
+msgstr ""
+
+#: ../../user-guide.rst:256
+msgid "Finding All Matched Cells"
+msgstr ""
+
+#: ../../user-guide.rst:258
+msgid "Find all cells matching a string:"
+msgstr ""
+
+#: ../../user-guide.rst:264
+msgid "Find all cells matching a regexp:"
+msgstr ""
+
+#: ../../user-guide.rst:272
+msgid "Clear A Worksheet"
+msgstr ""
+
+#: ../../user-guide.rst:274
+msgid "Clear one or multiple cells ranges at once:"
+msgstr ""
+
+#: ../../user-guide.rst:280
+msgid "Clear the entire worksheet:"
+msgstr ""
+
+#: ../../user-guide.rst:287
+msgid "Cell Object"
+msgstr ""
+
+#: ../../user-guide.rst:289
+msgid "Each cell has a value and coordinates properties:"
+msgstr ""
+
+#: ../../user-guide.rst:299
+msgid "Updating Cells"
+msgstr ""
+
+#: ../../user-guide.rst:313
+msgid "Update a range"
+msgstr ""
+
+#: ../../user-guide.rst:321
+msgid "Adding Data Validation"
+msgstr ""
+
+#: ../../user-guide.rst:323
+msgid "You can add a strict validation to a cell."
+msgstr ""
+
+#: ../../user-guide.rst:336
+msgid "Or add validation with a drop down."
+msgstr ""
+
+#: ../../user-guide.rst:349
+msgid ""
+"Check out the api docs for `DataValidationRule`_ and `CondtionType`_ for "
+"more details."
+msgstr ""
+
+#: ../../user-guide.rst:358
+msgid "Formatting"
+msgstr ""
+
+#: ../../user-guide.rst:360
+msgid "Here's an example of basic formatting."
+msgstr ""
+
+#: ../../user-guide.rst:362
+msgid "Set **A1:B1** text format to bold:"
+msgstr ""
+
+#: ../../user-guide.rst:368
+msgid ""
+"Color the background of **A2:B2** cell range in black, change horizontal "
+"alignment, text color and font size:"
+msgstr ""
+
+#: ../../user-guide.rst:390
+msgid ""
+"The second argument to :meth:`~gspread.models.Worksheet.format` is a "
+"dictionary containing the fields to update. A full specification of format "
+"options is available at `CellFormat "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/cells#cellformat>`_"
+" in Sheet API Reference."
+msgstr ""
+
+#: ../../user-guide.rst:393
+msgid ""
+"`gspread-formatting <https://github.com/robin900/gspread-formatting>`_ "
+"offers extensive functionality to help you when you go beyond basics."
+msgstr ""
+
+#: ../../user-guide.rst:397
+msgid "Using gspread with pandas"
+msgstr ""
+
+#: ../../user-guide.rst:399
+msgid ""
+"`pandas <https://pandas.pydata.org/>`_ is a popular library for data "
+"analysis. The simplest way to get data from a sheet to a pandas DataFrame is"
+" with :meth:`~gspread.models.Worksheet.get_all_records`:"
+msgstr ""
+
+#: ../../user-guide.rst:407
+msgid ""
+"Here's a basic example for writing a dataframe to a sheet. With "
+":meth:`~gspread.models.Worksheet.update` we put the header of a dataframe "
+"into the first row of a sheet followed by the values of a dataframe:"
+msgstr ""
+
+#: ../../user-guide.rst:415
+msgid "For advanced pandas use cases check out these libraries:"
+msgstr ""
+
+#: ../../user-guide.rst:417
+msgid "`gspread-pandas <https://github.com/aiguofer/gspread-pandas>`_"
+msgstr ""
+
+#: ../../user-guide.rst:418
+msgid "`gspread-dataframe <https://github.com/robin900/gspread-dataframe>`_"
+msgstr ""
+
+#: ../../user-guide.rst:421
+msgid "Using gspread with NumPy"
+msgstr ""
+
+#: ../../user-guide.rst:423
+msgid ""
+"`NumPy <https://numpy.org/>`_ is a library for scientific computing in "
+"Python. It provides tools for working with high performance multi-"
+"dimensional arrays."
+msgstr ""
+
+#: ../../user-guide.rst:425
+msgid "Read contents of a sheet into a NumPy array:"
+msgstr ""
+
+#: ../../user-guide.rst:432
+msgid ""
+"The code above assumes that your data starts from the first row of the "
+"sheet. If you have a header row in the first row, you need replace "
+"``worksheet.get_all_values()`` with ``worksheet.get_all_values()[1:]``."
+msgstr ""
+
+#: ../../user-guide.rst:434
+msgid "Write a NumPy array to a sheet:"
+msgstr ""

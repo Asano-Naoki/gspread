@@ -1,0 +1,367 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Anton Burnashev
+# This file is distributed under the same license as the gspread package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gspread 6.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-02 14:47+0900\n"
+"PO-Revision-Date: 2024-06-02 05:58+0000\n"
+"Language-Team: Japanese (https://app.transifex.com/asano-naoki/teams/193369/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../oauth2.rst:2
+msgid "Authentication"
+msgstr ""
+
+#: ../../oauth2.rst:4
+msgid ""
+"To access spreadsheets via Google Sheets API you need to authenticate and "
+"authorize your application."
+msgstr ""
+
+#: ../../oauth2.rst:6
+msgid ""
+"If you plan to access spreadsheets on behalf of a bot account use "
+":ref:`Service Account <service-account>`."
+msgstr ""
+
+#: ../../oauth2.rst:7
+msgid ""
+"If you'd like to access spreadsheets on behalf of end users (including "
+"yourself) use :ref:`OAuth Client ID <oauth-client-id>`."
+msgstr ""
+
+#: ../../oauth2.rst:8
+msgid ""
+"If you'd like to **only** open public spreadsheets use :ref:`API key <api-"
+"key>`"
+msgstr ""
+
+#: ../../oauth2.rst:13
+msgid "Enable API Access for a Project"
+msgstr ""
+
+#: ../../oauth2.rst:15
+msgid ""
+"Head to `Google Developers Console "
+"<https://console.developers.google.com/>`_ and create a new project (or "
+"select the one you already have)."
+msgstr ""
+
+#: ../../oauth2.rst:17
+msgid ""
+"In the box labeled \"Search for APIs and Services\", search for \"Google "
+"Drive API\" and enable it."
+msgstr ""
+
+#: ../../oauth2.rst:19
+msgid ""
+"In the box labeled \"Search for APIs and Services\", search for \"Google "
+"Sheets API\" and enable it."
+msgstr ""
+
+#: ../../oauth2.rst:25
+msgid "For Bots: Using Service Account"
+msgstr ""
+
+#: ../../oauth2.rst:27
+msgid ""
+"A service account is a special type of Google account intended to represent "
+"a non-human user that needs to authenticate and be authorized to access data"
+" in Google APIs [sic]."
+msgstr ""
+
+#: ../../oauth2.rst:29
+msgid ""
+"Since it's a separate account, by default it does not have access to any "
+"spreadsheet until you share it with this account. Just like any other Google"
+" account."
+msgstr ""
+
+#: ../../oauth2.rst:31 ../../oauth2.rst:260
+msgid "Here's how to get one:"
+msgstr ""
+
+#: ../../oauth2.rst:33 ../../oauth2.rst:144 ../../oauth2.rst:262
+msgid ":ref:`enable-api-access` if you haven't done it yet."
+msgstr ""
+
+#: ../../oauth2.rst:35
+msgid ""
+"Go to \"APIs & Services > Credentials\" and choose \"Create credentials > "
+"Service account key\"."
+msgstr ""
+
+#: ../../oauth2.rst:37
+msgid "Fill out the form"
+msgstr ""
+
+#: ../../oauth2.rst:39
+msgid "Click \"Create\" and \"Done\"."
+msgstr ""
+
+#: ../../oauth2.rst:41
+msgid "Press \"Manage service accounts\" above Service Accounts."
+msgstr ""
+
+#: ../../oauth2.rst:43
+msgid ""
+"Press on **⋮** near recently created service account and select \"Manage "
+"keys\" and then click on \"ADD KEY > Create new key\"."
+msgstr ""
+
+#: ../../oauth2.rst:45
+msgid "Select JSON key type and press \"Create\"."
+msgstr ""
+
+#: ../../oauth2.rst:47
+msgid ""
+"You will automatically download a JSON file with credentials. It may look "
+"like this:"
+msgstr ""
+
+#: ../../oauth2.rst:61
+msgid ""
+"Remember the path to the downloaded credentials file. Also, in the next step"
+" you'll need the value of *client_email* from this file."
+msgstr ""
+
+#: ../../oauth2.rst:63
+msgid ""
+"Very important! Go to your spreadsheet and share it with a *client_email* "
+"from the step above. Just like you do with any other Google account. If you "
+"don't do this, you'll get a ``gspread.exceptions.SpreadsheetNotFound`` "
+"exception when trying to access this spreadsheet from your application or a "
+"script."
+msgstr ""
+
+#: ../../oauth2.rst:65
+msgid ""
+"Move the downloaded file to ``~/.config/gspread/service_account.json``. "
+"Windows users should put this file to "
+"``%APPDATA%\\gspread\\service_account.json``."
+msgstr ""
+
+#: ../../oauth2.rst:67 ../../oauth2.rst:158 ../../oauth2.rst:277
+msgid "Create a new Python file with this code:"
+msgstr ""
+
+#: ../../oauth2.rst:79
+msgid "Ta-da!"
+msgstr ""
+
+#: ../../oauth2.rst:82
+msgid ""
+"If you want to store the credentials file somewhere else, specify the path "
+"to `service_account.json` in :meth:`~gspread.service_account`: ::"
+msgstr ""
+
+#: ../../oauth2.rst:87 ../../oauth2.rst:182
+msgid "Make sure you store the credentials file in a safe place."
+msgstr ""
+
+#: ../../oauth2.rst:89
+msgid ""
+"For the curious, under the hood :meth:`~gspread.service_account` loads your "
+"credentials and authorizes gspread. Similarly to the code that has been used"
+" for authentication prior to the gspread version 3.6:"
+msgstr ""
+
+#: ../../oauth2.rst:108
+msgid "There is also the option to pass credentials as a dictionary:"
+msgstr ""
+
+#: ../../oauth2.rst:131
+msgid ""
+"Older versions of gspread have used `oauth2client "
+"<https://github.com/google/oauth2client>`_. Google has `deprecated "
+"<https://google-auth.readthedocs.io/en/latest/oauth2client-"
+"deprecation.html>`_ it in favor of `google-auth`. If you're still using "
+"`oauth2client` credentials, the library will convert these to `google-auth` "
+"for you, but you can change your code to use the new credentials to make "
+"sure nothing breaks in the future."
+msgstr ""
+
+#: ../../oauth2.rst:140
+msgid "For End Users: Using OAuth Client ID"
+msgstr ""
+
+#: ../../oauth2.rst:142
+msgid ""
+"This is the case where your application or a script is accessing "
+"spreadsheets on behalf of an end user. When you use this scenario, your "
+"application or a script will ask the end user (or yourself if you're running"
+" it) to grant access to the user's data."
+msgstr ""
+
+#: ../../oauth2.rst:145
+msgid ""
+"Go to \"APIs & Services > OAuth Consent Screen.\" Click the button for "
+"\"Configure Consent Screen\"."
+msgstr ""
+
+#: ../../oauth2.rst:147
+msgid ""
+"In the \"1 OAuth consent screen\" tab, give your app a name and fill the "
+"\"User support email\" and \"Developer contact information\". Click \"SAVE "
+"AND CONTINUE\"."
+msgstr ""
+
+#: ../../oauth2.rst:148
+msgid ""
+"There is no need to fill in anything in the tab \"2 Scopes\", just click "
+"\"SAVE AND CONTINUE\"."
+msgstr ""
+
+#: ../../oauth2.rst:149
+msgid ""
+"In the tab \"3 Test users\", add the Google account email of the end user, "
+"typically your own Google email. Click \"SAVE AND CONTINUE\"."
+msgstr ""
+
+#: ../../oauth2.rst:150
+msgid "Double check the \"4 Summary\" presented and click \"BACK TO DASHBOARD\"."
+msgstr ""
+
+#: ../../oauth2.rst:152
+msgid "Go to \"APIs & Services > Credentials\""
+msgstr ""
+
+#: ../../oauth2.rst:153
+msgid "Click \"+ Create credentials\" at the top, then select \"OAuth client ID\"."
+msgstr ""
+
+#: ../../oauth2.rst:154
+msgid ""
+"Select \"Desktop app\", name the credentials and click \"Create\". Click "
+"\"Ok\" in the \"OAuth client created\" popup."
+msgstr ""
+
+#: ../../oauth2.rst:155
+msgid ""
+"Download the credentials by clicking the Download JSON button in \"OAuth 2.0"
+" Client IDs\" section."
+msgstr ""
+
+#: ../../oauth2.rst:156
+msgid ""
+"Move the downloaded file to ``~/.config/gspread/credentials.json``. Windows "
+"users should put this file to ``%APPDATA%\\gspread\\credentials.json``."
+msgstr ""
+
+#: ../../oauth2.rst:170
+msgid ""
+"When you run this code, it launches a browser asking you for authentication."
+" Follow the instruction on the web page. Once finished, gspread stores "
+"authorized credentials in the config directory next to `credentials.json`. "
+"You only need to do authorization in the browser once, following runs will "
+"reuse stored credentials."
+msgstr ""
+
+#: ../../oauth2.rst:174
+msgid ""
+"If you want to store the credentials file somewhere else, specify the path "
+"to `credentials.json` and `authorized_user.json` in :meth:`~gspread.oauth`: "
+"::"
+msgstr ""
+
+#: ../../oauth2.rst:184
+msgid ""
+"There is also the option to pass your credentials directly as a python dict."
+" This way you don't have to store them as files or you can store them in "
+"your favorite password manager."
+msgstr ""
+
+#: ../../oauth2.rst:206
+msgid ""
+"Once authenticated you must store the returned json string containing your "
+"authenticated user information. Provide that details as a python dict as "
+"second argument in your next `oauth` request to be directly authenticated "
+"and skip the flow."
+msgstr ""
+
+#: ../../oauth2.rst:210
+msgid ""
+"The second time if your authorized user has not expired, you can omit the "
+"credentials. Be aware, if the authorized user has expired your credentials "
+"are required to authenticate again."
+msgstr ""
+
+#: ../../oauth2.rst:244
+msgid ""
+"Security credentials file and authorized credentials contain sensitive data."
+" **Do not share these files with others** and treat them like private keys."
+msgstr ""
+
+#: ../../oauth2.rst:246
+msgid ""
+"If you are concerned about giving the application access to your "
+"spreadsheets and Drive, use Service Accounts."
+msgstr ""
+
+#: ../../oauth2.rst:249
+msgid ""
+"The user interface of Google Developers Console may be different when you're"
+" reading this. If you find that this document is out of sync with the actual"
+" UI, please update it. Improvements to the documentation are always welcome."
+" Click **Edit on GitHub** in the top right corner of the page, make it "
+"better and submit a PR."
+msgstr ""
+
+#: ../../oauth2.rst:256
+msgid "For public spreadsheets only"
+msgstr ""
+
+#: ../../oauth2.rst:258
+msgid ""
+"An API key is a token that allows an application to open public spreadsheet "
+"files."
+msgstr ""
+
+#: ../../oauth2.rst:264
+msgid ""
+"Go to \"APIs & Services > Credentials\" and choose \"Create credentials > "
+"API key\""
+msgstr ""
+
+#: ../../oauth2.rst:266
+msgid "A pop-up should display your newly created key."
+msgstr ""
+
+#: ../../oauth2.rst:268
+msgid "Copy the key."
+msgstr ""
+
+#: ../../oauth2.rst:270
+msgid "That's it your key is created."
+msgstr ""
+
+#: ../../oauth2.rst:274
+msgid ""
+"You can access your key any time later, come back to the \"APIs & Services >"
+" Credentials\" page, you'll be able to see your key again."
+msgstr ""
+
+#: ../../oauth2.rst:289
+msgid "Ta-da !"
+msgstr ""
+
+#: ../../oauth2.rst:293
+msgid ""
+"You can only open public keys, this means you can only open spreadsheet "
+"files using the methods: ``gc.open_by_key`` and ``gc.open_by_url``."
+msgstr ""
+
+#: ../../oauth2.rst:296
+msgid ""
+"The method ``gc.open()`` searches your private files to find the one with a "
+"matching name so it will never work."
+msgstr ""

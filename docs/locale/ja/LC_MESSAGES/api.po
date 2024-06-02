@@ -1,0 +1,4651 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Anton Burnashev
+# This file is distributed under the same license as the gspread package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gspread 6.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-02 14:47+0900\n"
+"PO-Revision-Date: 2024-06-02 05:58+0000\n"
+"Language-Team: Japanese (https://app.transifex.com/asano-naoki/teams/193369/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../api/auth.rst:2
+msgid "Auth"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth:2
+msgid "gspread.auth"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth:4
+msgid "Simple authentication with OAuth."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.FlowCallable:1
+msgid "Protocol for OAuth flow callables."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.api_key:1
+msgid "Authenticate using an API key."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.api_key:3
+msgid "Allows you to open public spreadsheet files."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.api_key:7
+msgid ""
+"This method only allows you to open public spreadsheet files. It does not "
+"work for private spreadsheet files."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.api_key:0
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:0
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth_from_dict:0
+#: ../../../gspread/auth.pydocstring of gspread.auth.service_account:0
+#: ../../../gspread/auth.pydocstring of
+#: gspread.auth.service_account_from_dict:0 ../../../gspread/cell.pydocstring
+#: of gspread.cell.Cell.from_address:0 ../../../gspread/client.pydocstring of
+#: gspread.client.Client.copy:0 ../../../gspread/client.pydocstring of
+#: gspread.client.Client.create:0 ../../../gspread/client.pydocstring of
+#: gspread.client.Client.del_spreadsheet:0 ../../../gspread/client.pydocstring
+#: of gspread.client.Client.export:0 ../../../gspread/client.pydocstring of
+#: gspread.client.Client.import_csv:0 ../../../gspread/client.pydocstring of
+#: gspread.client.Client.insert_permission:0
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.list_permissions:0
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.list_spreadsheet_files:0
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open:0
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open_by_key:0
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open_by_url:0
+#: ../../../gspread/client.pydocstring of gspread.client.Client.openall:0
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.remove_permission:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient:0 ../../../gspread/http_client.pydocstring
+#: of gspread.http_client.HTTPClient.batch_update:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.export:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.fetch_sheet_metadata:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.import_csv:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.insert_permission:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.list_permissions:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.remove_permission:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_append:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_clear:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_get:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_update:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_clear:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_get:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_update:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.add_worksheet:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.batch_update:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.del_worksheet:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.duplicate_sheet:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.export:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.fetch_sheet_metadata:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.get_worksheet:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.get_worksheet_by_id:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.named_range:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.remove_permissions:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.reorder_worksheets:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.share:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.update_title:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_append:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_clear:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_get:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_update:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_clear:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_get:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_update:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.worksheet:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.worksheets:0
+#: ../../../gspread/utils.pydocstring of gspread.utils.a1_to_rowcol:0
+#: ../../../gspread/utils.pydocstring of gspread.utils.combined_merge_values:0
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_colors_to_hex_value:0
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_hex_to_colors_dict:0
+#: ../../../gspread/utils.pydocstring of gspread.utils.fill_gaps:0
+#: ../../../gspread/utils.pydocstring of gspread.utils.numericise_all:0
+#: ../../../gspread/utils.pydocstring of gspread.utils.rowcol_to_a1:0
+#: ../../../gspread/utils.pydocstring of gspread.utils.to_records:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.acell:0 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.add_cols:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_dimension_group_columns:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_dimension_group_rows:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_protected_range:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_rows:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_validation:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.append_row:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.append_rows:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_format:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.cell:0 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.clear_note:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.clear_notes:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.col_values:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.columns_auto_resize:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.copy_range:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.copy_to:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.cut_range:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.define_named_range:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_columns:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_dimension:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_dimension_group_columns:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_dimension_group_rows:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_named_range:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_rows:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.duplicate:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.find:0 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.findall:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.format:0 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.freeze:0
+#: ../../../gspread/worksheet.pydocstring of gspread.worksheet.Worksheet.get:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_all_records:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_note:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_notes:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.hide_columns:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.hide_rows:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_cols:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_note:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_notes:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_row:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_rows:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.merge_cells:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.range:0 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.resize:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.row_values:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.rows_auto_resize:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.set_basic_filter:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.sort:0 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.unhide_columns:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unhide_rows:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unmerge_cells:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:0 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.update_acell:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_cell:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_cells:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_note:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_notes:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_tab_color:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_title:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.api_key:10
+msgid "The actual API key to use"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.api_key:12
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:58
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth_from_dict:56
+#: ../../../gspread/auth.pydocstring of
+#: gspread.auth.service_account_from_dict:19
+msgid ""
+"A factory function that returns a client class. Defaults to "
+":class:`gspread.http_client.HTTPClient` (but could also use "
+":class:`gspread.http_client.BackOffHTTPClient` to avoid rate limiting)"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.api_key:0
+#: ../../../gspread/auth.pydocstring of gspread.auth.authorize:0
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:0
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth_from_dict:0
+#: ../../../gspread/auth.pydocstring of gspread.auth.service_account:0
+#: ../../../gspread/auth.pydocstring of
+#: gspread.auth.service_account_from_dict:0 ../../../gspread/cell.pydocstring
+#: of gspread.cell.Cell.from_address:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.batch_update:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.fetch_sheet_metadata:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_append:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_clear:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_get:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_update:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_clear:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_get:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_update:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.batch_update:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.fetch_sheet_metadata:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_append:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_clear:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_get:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_update:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_clear:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_get:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_update:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.worksheets:0
+#: ../../../gspread/utils.pydocstring of gspread.utils.a1_to_rowcol:0
+#: ../../../gspread/utils.pydocstring of gspread.utils.combined_merge_values:0
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_colors_to_hex_value:0
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_hex_to_colors_dict:0
+#: ../../../gspread/utils.pydocstring of gspread.utils.fill_gaps:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.cell:0 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.copy_to:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.define_named_range:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_named_range:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.find:0 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.findall:0
+#: ../../../gspread/worksheet.pydocstring of gspread.worksheet.Worksheet.get:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.list_dimension_group_columns:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.list_dimension_group_rows:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.merge_cells:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.range:0 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.unmerge_cells:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.api_key:16
+#: ../../../gspread/auth.pydocstring of gspread.auth.authorize:16
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:62
+#: ../../../gspread/auth.pydocstring of gspread.auth.service_account:23
+#: ../../../gspread/auth.pydocstring of
+#: gspread.auth.service_account_from_dict:23
+msgid ":class:`gspread.client.Client`"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.authorize:1
+msgid ""
+"Login to Google API using OAuth2 credentials. This is a shortcut/helper "
+"function which instantiates a client using `http_client`. By default "
+":class:`gspread.HTTPClient` is used (but could also use "
+":class:`gspread.BackOffHTTPClient` to avoid rate limiting)."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.authorize:7
+msgid ""
+"It can take an additional `requests.Session` object in order to provide you "
+"own session object."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.authorize:12
+msgid ""
+"When providing your own `requests.Session` object, use the value `None` as "
+"`credentials`."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.authorize:0
+#: ../../../gspread/client.pydocstring of gspread.Client.expiry:0
+#: ../../../gspread/client.pydocstring of gspread.client.Client.copy:0
+#: ../../../gspread/client.pydocstring of gspread.client.Client.create:0
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.list_spreadsheet_files:0
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open:0
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open_by_key:0
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open_by_url:0
+#: ../../../gspread/client.pydocstring of gspread.client.Client.openall:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.batch_update:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.fetch_sheet_metadata:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_append:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_get:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_update:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_clear:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_get:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_update:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.add_worksheet:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.batch_update:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.duplicate_sheet:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.fetch_sheet_metadata:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.get_worksheet:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.get_worksheet_by_id:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_append:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_get:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_update:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_clear:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_get:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_update:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.worksheet:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.worksheets:0
+#: ../../../gspread/utils.pydocstring of gspread.utils.a1_to_rowcol:0
+#: ../../../gspread/utils.pydocstring of gspread.utils.combined_merge_values:0
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_colors_to_hex_value:0
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_hex_to_colors_dict:0
+#: ../../../gspread/utils.pydocstring of gspread.utils.fill_gaps:0
+#: ../../../gspread/utils.pydocstring of gspread.utils.rowcol_to_a1:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.copy_to:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.define_named_range:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_named_range:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.duplicate:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.find:0 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.findall:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.list_dimension_group_columns:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.list_dimension_group_rows:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.merge_cells:0
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unmerge_cells:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.authorize:15
+msgid "An instance of the class produced by `http_client`."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.get_config_dir:1
+msgid "Construct a config dir path."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.get_config_dir:4
+msgid "By default:"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.get_config_dir:4
+msgid "`%APPDATA%\\gspread` on Windows"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.get_config_dir:5
+msgid "`~/.config/gspread` everywhere else"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.local_server_flow:1
+msgid "Run an OAuth flow using a local server strategy."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.local_server_flow:3
+msgid ""
+"Creates an OAuth flow and runs "
+"`google_auth_oauthlib.flow.InstalledAppFlow.run_local_server "
+"<https://google-auth-"
+"oauthlib.readthedocs.io/en/latest/reference/google_auth_oauthlib.flow.html#google_auth_oauthlib.flow.InstalledAppFlow.run_local_server>`_."
+" This will start a local web server and open the authorization URL in the "
+"user's browser."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.local_server_flow:7
+msgid ""
+"Pass this function to ``flow`` parameter of :meth:`~gspread.oauth` to run a "
+"local server flow."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:1
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth_from_dict:1
+msgid "Authenticate with OAuth Client ID."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:3
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth_from_dict:3
+msgid ""
+"By default this function will use the local server strategy and open the "
+"authorization URL in the user's browser::"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:8
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth_from_dict:8
+msgid ""
+"Another option is to run a console strategy. This way, the user is "
+"instructed to open the authorization URL in their browser. Once the "
+"authorization is complete, the user must then copy & paste the authorization"
+" code into the application::"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:16
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth_from_dict:16
+#: ../../../gspread/auth.pydocstring of gspread.auth.service_account:3
+#: ../../../gspread/auth.pydocstring of
+#: gspread.auth.service_account_from_dict:3
+msgid ""
+"``scopes`` parameter defaults to read/write scope available in "
+"``gspread.auth.DEFAULT_SCOPES``. It's read/write for Sheets and Drive API::"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:25
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth_from_dict:25
+msgid ""
+"You can also use ``gspread.auth.READONLY_SCOPES`` for read only access. "
+"Obviously any method of ``gspread`` that updates a spreadsheet **will not "
+"work** in this case::"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:34
+msgid ""
+"If you're storing your user credentials in a place other than the default, "
+"you may provide a path to that file like so::"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:42
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth_from_dict:52
+#: ../../../gspread/auth.pydocstring of gspread.auth.service_account:17
+#: ../../../gspread/auth.pydocstring of
+#: gspread.auth.service_account_from_dict:17
+msgid "The scopes used to obtain authorization."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:43
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth_from_dict:53
+msgid ""
+"OAuth flow to use for authentication. Defaults to "
+":meth:`~gspread.auth.local_server_flow`"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:45
+msgid ""
+"Filepath (including name) pointing to a credentials `.json` file. Defaults "
+"to DEFAULT_CREDENTIALS_FILENAME:      * "
+"`%APPDATA%\\gspread\\credentials.json` on Windows     * "
+"`~/.config/gspread/credentials.json` everywhere else"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:45
+msgid ""
+"Filepath (including name) pointing to a credentials `.json` file. Defaults "
+"to DEFAULT_CREDENTIALS_FILENAME:"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:49
+msgid "`%APPDATA%\\gspread\\credentials.json` on Windows"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:50
+msgid "`~/.config/gspread/credentials.json` everywhere else"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:51
+msgid ""
+"Filepath (including name) pointing to an authorized user `.json` file. "
+"Defaults to DEFAULT_AUTHORIZED_USER_FILENAME:      * "
+"`%APPDATA%\\gspread\\authorized_user.json` on Windows     * "
+"`~/.config/gspread/authorized_user.json` everywhere else"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:51
+msgid ""
+"Filepath (including name) pointing to an authorized user `.json` file. "
+"Defaults to DEFAULT_AUTHORIZED_USER_FILENAME:"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:55
+msgid "`%APPDATA%\\gspread\\authorized_user.json` on Windows"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth:56
+msgid "`~/.config/gspread/authorized_user.json` everywhere else"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth_from_dict:34
+msgid ""
+"This function requires you to pass the credentials directly as a python "
+"dict. After the first authentication the function returns the authenticated "
+"user info, this can be passed again to authenticate the user without the "
+"need to run the flow again."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth_from_dict:49
+msgid "The credentials from google cloud platform"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth_from_dict:50
+msgid "The authenticated user if already authenticated."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.oauth_from_dict:60
+msgid "(:class:`gspread.client.Client`, str)"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.service_account:1
+msgid "Authenticate using a service account."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.service_account:12
+#: ../../../gspread/auth.pydocstring of
+#: gspread.auth.service_account_from_dict:12
+msgid ""
+"You can also use ``gspread.auth.READONLY_SCOPES`` for read only access. "
+"Obviously any method of ``gspread`` that updates a spreadsheet **will not "
+"work** in this case."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.service_account:16
+msgid "The path to the service account json file."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of gspread.auth.service_account:19
+msgid ""
+"A factory function that returns a client class. Defaults to "
+":class:`gspread.HTTPClient` (but could also use "
+":class:`gspread.BackOffHTTPClient` to avoid rate limiting)"
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of
+#: gspread.auth.service_account_from_dict:1
+msgid "Authenticate using a service account (json)."
+msgstr ""
+
+#: ../../../gspread/auth.pydocstring of
+#: gspread.auth.service_account_from_dict:16
+msgid "The service account info in Google format"
+msgstr ""
+
+#: ../../api/client.rst:2
+msgid "Client"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client:1
+msgid "An instance of this class Manages Spreadsheet files"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client:6
+msgid "It is used to:"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client:4
+msgid "open/create/list/delete spreadsheets"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client:5
+msgid "create/delete/list spreadsheet permission"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client:6
+msgid "etc"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client:8
+msgid ""
+"It is the gspread entry point. It will handle creating necessary "
+":class:`~gspread.models.Spreadsheet` instances."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.copy:1
+msgid "Copies a spreadsheet."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.copy:3
+msgid "A key of a spreadsheet to copy."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.copy:4
+msgid "(optional) A title for the new spreadsheet."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.copy:6
+msgid ""
+"(optional) If True, copy permissions from the original spreadsheet to the "
+"new spreadsheet."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.copy:9
+#: ../../../gspread/client.pydocstring of gspread.client.Client.create:5
+msgid "Id of the folder where we want to save the spreadsheet."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.copy:12
+msgid ""
+"(optional) If True, copy the comments from the original spreadsheet to the "
+"new spreadsheet."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.copy:15
+#: ../../../gspread/client.pydocstring of gspread.client.Client.create:8
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open:6
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open_by_key:4
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open_by_url:5
+msgid "a :class:`~gspread.models.Spreadsheet` instance."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.copy:21
+msgid ""
+"If you're using custom credentials without the Drive scope, you need to add "
+"``https://www.googleapis.com/auth/drive`` to your OAuth scope in order to "
+"use this method."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.copy:25
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_update:9
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.remove_permissions:9
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.share:20
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_update:9
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_rows:8
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_notes:10
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.range:17 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.sort:9
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_acell:6
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_cell:7
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_cells:24
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_notes:10
+msgid "Example::"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.copy:32
+msgid ""
+"Otherwise, you will get an ``Insufficient Permission`` error when you try to"
+" copy a spreadsheet."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.create:1
+msgid "Creates a new spreadsheet."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.create:3
+msgid "A title of a new spreadsheet."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.del_spreadsheet:1
+msgid "Deletes a spreadsheet."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.del_spreadsheet:3
+msgid "a spreadsheet ID (a.k.a file ID)."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.Client.expiry:1
+msgid "Returns the expiry date of the curenlty loaded credentials"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.Client.expiry:3
+msgid "(optional) datetime the expiry date time object."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.Client.expiry:7
+msgid "It only applies to gspread client created using oauth"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.export:1
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.export:1
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.export:1
+msgid "Export the spreadsheet in the given format."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.export:3
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.export:3
+msgid "The key of the spreadsheet to export"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.export:5
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.export:5
+msgid ""
+"The format of the resulting file. Possible values are:      * "
+"``ExportFormat.PDF``     * ``ExportFormat.EXCEL``     * ``ExportFormat.CSV``"
+"     * ``ExportFormat.OPEN_OFFICE_SHEET``     * ``ExportFormat.TSV``     * "
+"``ExportFormat.ZIPPED_HTML``  See `ExportFormat`_ in the Drive API."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.export:5
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.export:5
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.export:5
+msgid "The format of the resulting file. Possible values are:"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.export:8
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.export:8
+msgid "``ExportFormat.PDF``"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.export:9
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.export:9
+msgid "``ExportFormat.EXCEL``"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.export:10
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.export:10
+msgid "``ExportFormat.CSV``"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.export:11
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.export:11
+msgid "``ExportFormat.OPEN_OFFICE_SHEET``"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.export:12
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.export:12
+msgid "``ExportFormat.TSV``"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.export:13
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.export:13
+msgid "``ExportFormat.ZIPPED_HTML``"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.export:15
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.export:15
+msgid "See `ExportFormat`_ in the Drive API."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.export:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.export:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.export:0
+msgid "returns bytes"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.export:19
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.export:19
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.export:19
+msgid "The content of the exported file."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.get_file_drive_metadata:1
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.get_file_drive_metadata:1
+msgid ""
+"Get the metadata from the Drive API for a specific file This method is "
+"mainly here to retrieve the create/update time of a file (these metadata are"
+" only accessible from the Drive API)."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.import_csv:1
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.import_csv:1
+msgid "Imports data into the first page of the spreadsheet."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.import_csv:4
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.import_csv:3
+msgid "A CSV string of data."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.import_csv:6
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.import_csv:5
+#: ../../../gspread/utils.pydocstring of gspread.utils.a1_to_rowcol:9
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_colors_to_hex_value:13
+#: ../../../gspread/utils.pydocstring of gspread.utils.rowcol_to_a1:13
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.acell:13 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.cell:15
+msgid "Example:"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.import_csv:17
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.import_csv:16
+msgid ""
+"This method removes all other worksheets and then entirely replaces the "
+"contents of the first worksheet."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.insert_permission:1
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.insert_permission:1
+msgid "Creates a new permission for a file."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.insert_permission:3
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.list_permissions:3
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.insert_permission:3
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.list_permissions:3
+msgid "a spreadsheet ID (aka file ID)."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.insert_permission:4
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.insert_permission:4
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.share:3
+msgid "user or group e-mail address, domain name or None for 'anyone' type."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.insert_permission:7
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.insert_permission:7
+msgid ""
+"(optional) The account type. Allowed values are: ``user``, ``group``, "
+"``domain``, ``anyone``"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.insert_permission:9
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.insert_permission:9
+msgid ""
+"(optional) The primary role for this user. Allowed values are: ``owner``, "
+"``writer``, ``reader``"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.insert_permission:11
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.share:13
+msgid "(optional) Whether to send an email to the target user/domain."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.insert_permission:13
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.insert_permission:13
+msgid "(optional) An email message to be sent if ``notify=True``."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.insert_permission:15
+msgid ""
+"(optional) Whether the link is required for this permission to be active."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.insert_permission:0
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.insert_permission:0
+msgid "returns dict"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.insert_permission:18
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.insert_permission:18
+msgid "the newly created permission"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.insert_permission:20
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.insert_permission:20
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.a1_range_to_grid_range:11 ../../../gspread/utils.pydocstring
+#: of gspread.utils.column_letter_to_index:10
+#: ../../../gspread/utils.pydocstring of gspread.utils.numericise:8
+#: ../../../gspread/utils.pydocstring of gspread.utils.to_records:9
+#: ../../../gspread/worksheet.pydocstring of gspread.worksheet.ValueRange:13
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_clear:7
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_format:14
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:60
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:73
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.format:7 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.get:90
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_all_records:40
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_notes:17
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:80
+msgid "Examples::"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.list_permissions:1
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.list_permissions:1
+msgid "Retrieve a list of permissions for a file."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.list_spreadsheet_files:1
+msgid "List all the spreadsheet files"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.list_spreadsheet_files:3
+msgid ""
+"Will list all spreadsheet files owned by/shared with this user account."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.list_spreadsheet_files:5
+msgid "Filter only spreadsheet files with this title"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.list_spreadsheet_files:6
+msgid ""
+"Only look for spreadsheet files in this folder The parameter ``folder_id`` "
+"can be obtained from the URL when looking at a folder in a web browser as "
+"follow: ``https://drive.google.com/drive/u/0/folders/<folder_id>``"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.list_spreadsheet_files:11
+msgid ""
+"a list of dicts containing the keys id, name, createdTime and modifiedTime."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open:1
+msgid "Opens a spreadsheet."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open:3
+msgid "A title of a spreadsheet."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open:4
+msgid ""
+"(optional) If specified can be used to filter spreadsheets by parent folder "
+"ID."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open:8
+msgid ""
+"If there's more than one spreadsheet with same title the first one will be "
+"opened."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open:0
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open_by_url:0
+msgid "Raises"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open:11
+msgid "if no spreadsheet with specified `title` is found."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open_by_key:1
+msgid "Opens a spreadsheet specified by `key` (a.k.a Spreadsheet ID)."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open_by_key:3
+msgid "A key of a spreadsheet as it appears in a URL in a browser."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open_by_url:1
+msgid "Opens a spreadsheet specified by `url`."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open_by_url:3
+msgid "URL of a spreadsheet as it appears in a browser."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.open_by_url:7
+msgid "if no spreadsheet with specified `url` is found."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.openall:1
+msgid "Opens all available spreadsheets."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.openall:3
+msgid "(optional) If specified can be used to filter spreadsheets by title."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.openall:6
+msgid "a list of :class:`~gspread.models.Spreadsheet` instances."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.remove_permission:1
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.remove_permission:1
+msgid "Deletes a permission from a file."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.remove_permission:3
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.remove_permission:3
+msgid "a spreadsheet ID (aka file ID.)"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of
+#: gspread.client.Client.remove_permission:4
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.remove_permission:4
+msgid "an ID for the permission."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.set_timeout:1
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.set_timeout:1
+msgid ""
+"How long to wait for the server to send data before giving up, as a float, "
+"or a ``(connect timeout, read timeout)`` tuple."
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.set_timeout:5
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.set_timeout:5
+msgid "Use value ``None`` to restore default timeout"
+msgstr ""
+
+#: ../../../gspread/client.pydocstring of gspread.client.Client.set_timeout:7
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.set_timeout:7
+msgid "Value for ``timeout`` is in seconds (s)."
+msgstr ""
+
+#: ../../api/exceptions.rst:2
+msgid "Exceptions"
+msgstr ""
+
+#: ../../../gspread/exceptions.pydocstring of gspread.exceptions.APIError:1
+msgid ""
+"Errors coming from the API itself, such as when we attempt to retrieve "
+"things that don't exist."
+msgstr ""
+
+#: ../../../gspread/exceptions.pydocstring of
+#: gspread.exceptions.GSpreadException:1
+msgid "A base class for gspread's exceptions."
+msgstr ""
+
+#: ../../../gspread/exceptions.pydocstring of
+#: gspread.exceptions.IncorrectCellLabel:1
+msgid "The cell label is incorrect."
+msgstr ""
+
+#: ../../../gspread/exceptions.pydocstring of
+#: gspread.exceptions.InvalidInputValue:1
+msgid "The provided values is incorrect."
+msgstr ""
+
+#: ../../../gspread/exceptions.pydocstring of
+#: gspread.exceptions.NoValidUrlKeyFound:1
+msgid "No valid key found in URL."
+msgstr ""
+
+#: ../../../gspread/exceptions.pydocstring of
+#: gspread.exceptions.SpreadsheetNotFound:1
+msgid "Trying to open non-existent or inaccessible spreadsheet."
+msgstr ""
+
+#: ../../../gspread/exceptions.pydocstring of
+#: gspread.exceptions.UnSupportedExportFormat:1
+msgid "Raised when export format is not supported."
+msgstr ""
+
+#: ../../../gspread/exceptions.pydocstring of
+#: gspread.exceptions.WorksheetNotFound:1
+msgid "Trying to open non-existent or inaccessible worksheet."
+msgstr ""
+
+#: ../../api/http_client.rst:2
+msgid "HTTP Client"
+msgstr ""
+
+#: ../../api/http_client.rst:6
+msgid ""
+"This class is not intended to be used directly. It is used by all gspread "
+"models to interact with the Google API"
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient:1
+msgid "An instance of this class communicates with Google API."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient:3
+msgid ""
+"An instance of google.auth.Credentials used to authenticate requests created"
+" by either:  * gspread.auth.oauth() * gspread.auth.oauth_from_dict() * "
+"gspread.auth.service_account() * gspread.auth.service_account_from_dict()"
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient:3
+msgid ""
+"An instance of google.auth.Credentials used to authenticate requests created"
+" by either:"
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient:6
+msgid "gspread.auth.oauth()"
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient:7
+msgid "gspread.auth.oauth_from_dict()"
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient:8
+msgid "gspread.auth.service_account()"
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient:9
+msgid "gspread.auth.service_account_from_dict()"
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient:11
+msgid ""
+"(Optional) An OAuth2 credential object. Credential objects created by "
+"`google-auth <https://github.com/googleapis/google-auth-library-python>`_.  "
+"You can pass you own Session object, simply pass ``auth=None`` and "
+"``session=my_custom_session``."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient:11
+msgid ""
+"(Optional) An OAuth2 credential object. Credential objects created by "
+"`google-auth <https://github.com/googleapis/google-auth-library-python>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient:14
+msgid ""
+"You can pass you own Session object, simply pass ``auth=None`` and "
+"``session=my_custom_session``."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient:16
+msgid ""
+"This class is not intended to be created manually. It will be created by the"
+" gspread.Client class."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.batch_update:1
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.batch_update:1
+msgid ""
+"Lower-level method that directly calls `spreadsheets/<ID>:batchUpdate "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/batchUpdate>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.batch_update:3
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.batch_update:3
+msgid ""
+"`Batch Update Request body "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/batchUpdate#request-"
+"body>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.batch_update:4
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.batch_update:4
+msgid ""
+"`Batch Update Response body "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/batchUpdate#response-"
+"body>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.fetch_sheet_metadata:1
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.fetch_sheet_metadata:1
+msgid ""
+"Similar to :method spreadsheets_get:`gspread.http_client.spreadsheets_get`, "
+"get the spreadsheet form the API but by default **does not get the cells "
+"data**. It only retrieve the the metadata from the spreadsheet."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.fetch_sheet_metadata:5
+msgid "the spreadsheet ID key"
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.fetch_sheet_metadata:6
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.fetch_sheet_metadata:5
+msgid ""
+"(optional) the HTTP params for the GET request. By default sets the "
+"parameter ``includeGridData`` to ``false``."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.fetch_sheet_metadata:8
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.fetch_sheet_metadata:7
+msgid "The raw spreadsheet"
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.insert_permission:11
+msgid "Whether to send an email to the target user/domain. Default ``True``."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.insert_permission:15
+msgid ""
+"Whether the link is required for this permission to be active. Default "
+"``False``."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.spreadsheets_get:1
+msgid ""
+"A method stub that directly calls `spreadsheets.get "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/get>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.spreadsheets_sheets_copy_to:1
+msgid ""
+"Lower-level method that directly calls `spreadsheets.sheets.copyTo "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.sheets/copyTo>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_append:1
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_append:1
+msgid ""
+"Lower-level method that directly calls `spreadsheets/<ID>/values:append "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/append>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_append:3
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_append:3
+msgid ""
+"The `A1 notation "
+"<https://developers.google.com/sheets/api/guides/concepts#a1_notation>`_ of "
+"a range to search for a logical table of data. Values will be appended after"
+" the last row of the table."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_append:5
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_append:5
+msgid ""
+"`Values Append Query parameters "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/append#query-"
+"parameters>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_append:6
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_append:6
+msgid ""
+"`Values Append Request body "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/append#request-"
+"body>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_append:7
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_append:7
+msgid ""
+"`Values Append Response body "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/append#response-"
+"body>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_clear:1
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_clear:1
+msgid ""
+"Lower-level method that directly calls `spreadsheets/<ID>/values:batchClear`"
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_clear:3
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_clear:3
+msgid ""
+"(optional) `Values Batch Clear Query parameters "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/batchClear#path-"
+"parameters>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_clear:4
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_clear:4
+msgid ""
+"(optional) `Values Batch Clear request body "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/batchClear#request-"
+"body>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_get:1
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_get:1
+msgid ""
+"Lower-level method that directly calls `spreadsheets/<ID>/values:batchGet "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/batchGet>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_get:3
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_get:3
+msgid ""
+"List of ranges in the `A1 notation "
+"<https://developers.google.com/sheets/api/guides/concepts#a1_notation>`_ of "
+"the values to retrieve."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_get:4
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_get:4
+msgid ""
+"(optional) `Values Batch Get Query parameters "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/batchGet#query-"
+"parameters>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_get:5
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_get:5
+msgid ""
+"`Values Batch Get Response body "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/batchGet#response-"
+"body>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_update:1
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_update:1
+msgid ""
+"Lower-level method that directly calls `spreadsheets/<ID>/values:batchUpdate"
+" "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/batchUpdate>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_update:3
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_update:3
+msgid ""
+"(optional) `Values Batch Update Request body "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/batchUpdate#request-"
+"body>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_batch_update:4
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_batch_update:4
+msgid ""
+"`Values Batch Update Response body "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/batchUpdate#response-"
+"body>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_clear:1
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_clear:1
+msgid ""
+"Lower-level method that directly calls `spreadsheets/<ID>/values:clear "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/clear>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_clear:3
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_clear:3
+msgid ""
+"The `A1 notation "
+"<https://developers.google.com/sheets/api/guides/concepts#a1_notation>`_ of "
+"the values to clear."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_clear:4
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_clear:4
+msgid ""
+"`Values Clear Response body "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/clear#response-"
+"body>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_get:1
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_get:1
+msgid ""
+"Lower-level method that directly calls `GET spreadsheets/<ID>/values/<range>"
+" "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/get>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_get:3
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_get:3
+msgid ""
+"The `A1 notation "
+"<https://developers.google.com/sheets/api/guides/concepts#a1_notation>`_ of "
+"the values to retrieve."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_get:4
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_get:4
+msgid ""
+"(optional) `Values Get Query parameters "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/get#query-"
+"parameters>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_get:5
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_get:5
+msgid ""
+"`Values Get Response body "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/get#response-"
+"body>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_update:1
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_update:1
+msgid ""
+"Lower-level method that directly calls `PUT spreadsheets/<ID>/values/<range>"
+" "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/update>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_update:3
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_update:3
+msgid ""
+"The `A1 notation "
+"<https://developers.google.com/sheets/api/guides/concepts#a1_notation>`_ of "
+"the values to update."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_update:4
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_update:4
+msgid ""
+"(optional) `Values Update Query parameters "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/update#query-"
+"parameters>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_update:5
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_update:5
+msgid ""
+"(optional) `Values Update Request body "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/update#request-"
+"body>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.HTTPClient.values_update:6
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.values_update:6
+msgid ""
+"`Values Update Response body "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/update#response-"
+"body>`_."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.BackOffHTTPClient:1
+msgid "BackoffClient is a gspread client with exponential backoff retries."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.BackOffHTTPClient:4
+msgid ""
+"In case a request fails due to some API rate limits, it will wait for some "
+"time, then retry the request."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.BackOffHTTPClient:7
+msgid ""
+"This can help by trying the request after some time and prevent the "
+"application from failing (by raising an APIError exception)."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.BackOffHTTPClient:11
+msgid "This Client is not production ready yet. Use it at your own risk !"
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.BackOffHTTPClient:15
+msgid ""
+"To use with the `auth` module, make sure to pass this backoff client factory"
+" using the ``client_factory`` parameter of the method used."
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.BackOffHTTPClient:20
+msgid "Currently known issues are:"
+msgstr ""
+
+#: ../../../gspread/http_client.pydocstring of
+#: gspread.http_client.BackOffHTTPClient:22
+msgid ""
+"will retry exponentially even when the error should raise instantly. Due to "
+"the Drive API that raises 403 (Forbidden) errors for forbidden access and "
+"for api rate limit exceeded."
+msgstr ""
+
+#: ../../api/index.rst:2
+msgid "API Reference"
+msgstr ""
+
+#: ../../api/models/cell.rst:2
+msgid "Cell"
+msgstr ""
+
+#: ../../../gspread/cell.pydocstring of gspread.cell.Cell:1
+msgid ""
+"An instance of this class represents a single cell in a "
+":class:`~gspread.worksheet.Worksheet`."
+msgstr ""
+
+#: ../../../gspread/cell.pydocstring of gspread.cell.Cell.address:1
+msgid "Cell address in A1 notation."
+msgstr ""
+
+#: ../../../gspread/cell.pydocstring of gspread.cell.Cell.address:0
+#: ../../../gspread/cell.pydocstring of gspread.cell.Cell.col:0
+#: ../../../gspread/cell.pydocstring of gspread.cell.Cell.numeric_value:0
+#: ../../../gspread/cell.pydocstring of gspread.cell.Cell.row:0
+msgid "type"
+msgstr ""
+
+#: ../../../gspread/cell.pydocstring of gspread.cell.Cell.address:3
+msgid "str"
+msgstr ""
+
+#: ../../../gspread/cell.pydocstring of gspread.cell.Cell.col:1
+msgid "Column number of the cell."
+msgstr ""
+
+#: ../../../gspread/cell.pydocstring of gspread.cell.Cell.col:3
+#: ../../../gspread/cell.pydocstring of gspread.cell.Cell.row:3
+msgid "int"
+msgstr ""
+
+#: ../../../gspread/cell.pydocstring of gspread.cell.Cell.from_address:1
+msgid ""
+"Instantiate a new :class:`~gspread.cell.Cell` from an A1 notation address "
+"and a value"
+msgstr ""
+
+#: ../../../gspread/cell.pydocstring of gspread.cell.Cell.from_address:4
+msgid "the A1 label of the returned cell"
+msgstr ""
+
+#: ../../../gspread/cell.pydocstring of gspread.cell.Cell.from_address:5
+msgid "the value for the returned cell"
+msgstr ""
+
+#: ../../../gspread/cell.pydocstring of gspread.cell.Cell.numeric_value:1
+msgid "Numeric value of this cell."
+msgstr ""
+
+#: ../../../gspread/cell.pydocstring of gspread.cell.Cell.numeric_value:3
+msgid ""
+"Will try to numericise this cell value, upon success will return its numeric"
+" value with the appropriate type."
+msgstr ""
+
+#: ../../../gspread/cell.pydocstring of gspread.cell.Cell.numeric_value:7
+msgid "int or float"
+msgstr ""
+
+#: ../../../gspread/cell.pydocstring of gspread.cell.Cell.row:1
+msgid "Row number of the cell."
+msgstr ""
+
+#: ../../docstring of gspread.cell.Cell.value:1
+msgid "Value of the cell."
+msgstr ""
+
+#: ../../api/models/index.rst:2
+msgid "Models"
+msgstr ""
+
+#: ../../api/models/index.rst:4
+msgid ""
+"The models represent common spreadsheet entities: :class:`a spreadsheet "
+"<gspread.spreadsheet.Spreadsheet>`, :class:`a worksheet "
+"<gspread.worksheet.Worksheet>` and :class:`a cell <gspread.cell.Cell>`."
+msgstr ""
+
+#: ../../api/models/index.rst:9
+msgid ""
+"The classes described below should not be instantiated by the end-user. "
+"Their instances result from calling other objects' methods."
+msgstr ""
+
+#: ../../api/models/spreadsheet.rst:2
+msgid "Spreadsheet"
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet:1
+msgid "The class that represents a spreadsheet."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.accept_ownership:1
+msgid "Accept the pending ownership request on that file."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.accept_ownership:3
+msgid "It is necessary to edit the permission with the pending ownership."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.accept_ownership:7
+msgid ""
+"You can only accept ownership transfer for the user currently being used."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.add_worksheet:1
+msgid "Adds a new worksheet to a spreadsheet."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.add_worksheet:3
+msgid "A title of a new worksheet."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.add_worksheet:5
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.row_count:1
+msgid "Number of rows."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.add_worksheet:7
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.col_count:1
+msgid "Number of columns."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.add_worksheet:9
+msgid "Position of the sheet."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.add_worksheet:12
+msgid "a newly created :class:`worksheets <gspread.worksheet.Worksheet>`."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.creationTime:1
+msgid "Spreadsheet Creation time."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.del_worksheet:1
+msgid "Deletes a worksheet from a spreadsheet."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.del_worksheet:3
+msgid "The worksheet to be deleted."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.del_worksheet_by_id:1
+msgid "Deletes a Worksheet by id"
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.duplicate_sheet:1
+msgid "Duplicates the contents of a sheet."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.duplicate_sheet:3
+msgid "The sheet ID to duplicate."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.duplicate_sheet:4
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.duplicate:3
+msgid ""
+"(optional) The zero-based index where the new sheet should be inserted. The "
+"index of all sheets after this are incremented."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.duplicate_sheet:8
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.duplicate:6
+msgid ""
+"(optional) The ID of the new sheet. If not set, an ID is chosen. If set, the"
+" ID must not conflict with any existing sheet ID. If set, it must be non-"
+"negative."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.duplicate_sheet:12
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.duplicate:9
+msgid ""
+"(optional) The name of the new sheet. If empty, a new name is chosen for "
+"you."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.duplicate_sheet:15
+msgid "a newly created :class:`gspread.worksheet.Worksheet`"
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.export:3
+msgid "A key of a spreadsheet to export"
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.export:5
+msgid ""
+"The format of the resulting file. Possible values are:      "
+"``ExportFormat.PDF``,     ``ExportFormat.EXCEL``,     ``ExportFormat.CSV``,"
+"     ``ExportFormat.OPEN_OFFICE_SHEET``,     ``ExportFormat.TSV``,     and "
+"``ExportFormat.ZIPPED_HTML``.  See `ExportFormat`_ in the Drive API. Default"
+" value is ``ExportFormat.PDF``."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.export:8
+msgid ""
+"``ExportFormat.PDF``, ``ExportFormat.EXCEL``, ``ExportFormat.CSV``, "
+"``ExportFormat.OPEN_OFFICE_SHEET``, ``ExportFormat.TSV``, and "
+"``ExportFormat.ZIPPED_HTML``."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.export:15
+msgid ""
+"See `ExportFormat`_ in the Drive API. Default value is ``ExportFormat.PDF``."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.get_lastUpdateTime:1
+msgid "Get the lastUpdateTime metadata from the Drive API."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.get_worksheet:1
+msgid "Returns a worksheet with specified `index`."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.get_worksheet:3
+msgid "An index of a worksheet. Indexes start from zero."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.get_worksheet:6
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.get_worksheet_by_id:6
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.worksheet:8
+msgid "an instance of :class:`gspread.worksheet.Worksheet`."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.get_worksheet:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.get_worksheet_by_id:0
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.worksheet:0
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_colors_to_hex_value:0
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_hex_to_colors_dict:0
+msgid "raises"
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.get_worksheet:9
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.get_worksheet_by_id:8
+msgid ""
+":class:`~gspread.exceptions.WorksheetNotFound`: if can't find the worksheet"
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.get_worksheet:11
+msgid "Example. To get third worksheet of a spreadsheet:"
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.get_worksheet_by_id:1
+msgid "Returns a worksheet with specified `worksheet id`."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.get_worksheet_by_id:3
+msgid ""
+"The id of a worksheet. it can be seen in the url as the value of the "
+"parameter 'gid'."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.get_worksheet_by_id:10
+msgid "Example. To get the worksheet 123456 of a spreadsheet:"
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.id:1
+msgid "Spreadsheet ID."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.lastUpdateTime:1
+msgid ""
+"Spreadsheet last updated time. Only updated on initialisation. For actual "
+"last updated time, use get_lastUpdateTime()."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.list_named_ranges:1
+msgid "Lists the spreadsheet's named ranges."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.list_permissions:1
+msgid "Lists the spreadsheet's permissions."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.list_protected_ranges:1
+msgid "Lists the spreadsheet's protected named ranges"
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.locale:1
+msgid "Spreadsheet locale"
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.named_range:1
+msgid ""
+"return a list of :class:`gspread.cell.Cell` objects from the specified named"
+" range."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.named_range:4
+msgid "A string with a named range value to fetch."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.remove_permissions:1
+msgid "Remove permissions from a user or domain."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.remove_permissions:3
+msgid "User or domain to remove permissions from"
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.remove_permissions:5
+msgid "(optional) Permission to remove. Defaults to all permissions."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.reorder_worksheets:1
+msgid ""
+"Updates the ``index`` property of each Worksheet to reflect its index in the"
+" provided sequence of Worksheets."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.reorder_worksheets:4
+msgid "Iterable of Worksheet objects in desired order."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.reorder_worksheets:6
+msgid ""
+"Note: If you omit some of the Spreadsheet's existing Worksheet objects from "
+"the provided sequence, those Worksheets will be appended to the end of the "
+"sequence in the order that they appear in the list returned by "
+":meth:`gspread.spreadsheet.Spreadsheet.worksheets`."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.share:1
+msgid "Share the spreadsheet with other accounts."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.share:6
+msgid ""
+"The account type. Allowed values are: ``user``, ``group``, ``domain``, "
+"``anyone``."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.share:10
+msgid ""
+"The primary role for this user. Allowed values are: ``owner``, ``writer``, "
+"``reader``."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.share:15
+msgid "(optional) The email to be sent if notify=True"
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.share:17
+msgid "(optional) Whether the link is required for this permission"
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.sheet1:1
+msgid "Shortcut property for getting the first worksheet."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.timezone:1
+msgid "Spreadsheet timeZone"
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.title:1
+msgid "Spreadsheet title."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.transfer_ownership:1
+msgid "Transfer the ownership of this file to a new user."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.transfer_ownership:3
+msgid ""
+"It is necessary to first create the permission with the new owner's email "
+"address, get the permission ID then use this method to transfer the "
+"ownership."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.transfer_ownership:8
+msgid ""
+"You can list all permissions using "
+":meth:`gspread.spreadsheet.Spreadsheet.list_permissions`."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.transfer_ownership:12
+msgid ""
+"You can only transfer ownership to a new user, you cannot transfer ownership"
+" to a group or a domain email address."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.update_drive_metadata:1
+msgid ""
+"Fetches the drive metadata from the Drive API and updates the cached values "
+"in _properties dict."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.update_locale:1
+msgid ""
+"Update the locale of the spreadsheet. Can be any of the ISO 639-1 language "
+"codes, such as: de, fr, en, ... Or an ISO 639-2 if no ISO 639-1 exists. Or a"
+" combination of the ISO language code and country code, such as en_US, "
+"de_CH, fr_FR, ..."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.update_locale:8
+msgid ""
+"Note: when updating this field, not all locales/languages are supported."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.update_timezone:1
+msgid ""
+"Updates the current spreadsheet timezone. Can be any timezone in CLDR format"
+" such as \"America/New_York\" or a custom time zone such as GMT-07:00."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.update_title:1
+msgid "Renames the spreadsheet."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.update_title:3
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_title:3
+msgid "A new title."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.url:1
+msgid "Spreadsheet URL."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.worksheet:1
+msgid "Returns a worksheet with specified `title`."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.worksheet:3
+msgid ""
+"A title of a worksheet. If there're multiple worksheets with the same title,"
+" first one will be returned."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.worksheet:11
+msgid "WorksheetNotFound: if can't find the worksheet"
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.worksheet:13
+msgid "Example. Getting worksheet named 'Annual bonuses'"
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.worksheets:1
+msgid ""
+"Returns a list of all :class:`worksheets <gspread.worksheet.Worksheet>` in a"
+" spreadsheet."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.worksheets:4
+msgid ""
+"(optional) If set to ``True`` will only return visible worksheets. Default "
+"is ``False``."
+msgstr ""
+
+#: ../../../gspread/spreadsheet.pydocstring of
+#: gspread.spreadsheet.Spreadsheet.worksheets:8
+msgid "a list of :class:`worksheets <gspread.worksheet.Worksheet>`."
+msgstr ""
+
+#: ../../api/models/worksheet.rst:2 ../../api/models/worksheet.rst:11
+msgid "Worksheet"
+msgstr ""
+
+#: ../../api/models/worksheet.rst:5
+msgid "ValueRange"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of gspread.worksheet.ValueRange:1
+msgid "The class holds the returned values."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of gspread.worksheet.ValueRange:3
+msgid ""
+"This class inherit the :const:`list` object type. It behaves exactly like a "
+"list."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of gspread.worksheet.ValueRange:6
+msgid "The values are stored in a matrix."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of gspread.worksheet.ValueRange:8
+msgid ""
+"The property :meth:`gspread.worksheet.ValueRange.major_dimension` holds the "
+"major dimension of the first list level."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of gspread.worksheet.ValueRange:11
+msgid "The inner lists will contain the actual values."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of gspread.worksheet.ValueRange:32
+msgid ""
+"This class should never be instantiated manually. It will be instantiated "
+"using the response from the sheet API."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.ValueRange.first:1
+msgid "Returns the value of a first cell in a range."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.ValueRange.first:3
+msgid "If the range is empty, return the default value."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.ValueRange.major_dimension:1
+msgid "The major dimension of this range"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.ValueRange.major_dimension:3
+msgid "Can be one of:"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.ValueRange.major_dimension:5
+msgid "``ROW``: the first list level holds rows of values"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.ValueRange.major_dimension:6
+msgid "``COLUMNS``: the first list level holds columns of values"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.ValueRange.range:1
+msgid "The range of the values"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of gspread.worksheet.Worksheet:1
+msgid ""
+"The class that represents a single sheet in a spreadsheet (aka "
+"\"worksheet\")."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.acell:1
+msgid "Returns an instance of a :class:`gspread.cell.Cell`."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.acell:3
+msgid "Cell label in A1 notation Letter case is ignored."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.acell:6 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.batch_get:11
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:26
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.cell:8 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.col_values:6
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:16 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.get_all_records:25
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.row_values:12
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:33
+msgid ""
+"(optional) Determines how values should be rendered in the output. See "
+"`ValueRenderOption`_ in the Sheets API."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_cols:1
+msgid "Adds columns to worksheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_cols:3
+msgid "Number of new columns to add."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_dimension_group_columns:1
+msgid "Group columns in order to hide them in the UI."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_dimension_group_columns:5
+msgid ""
+"API behavior with nested groups and non-matching ``[start:end)`` range can "
+"be found here: `Add Dimension Group Request`_"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_dimension_group_columns:10
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_dimension_group_rows:8
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_dimension_group_columns:10
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_dimension_group_rows:7
+msgid "The start (inclusive) of the group"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_dimension_group_columns:11
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_dimension_group_rows:9
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_dimension_group_columns:11
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_dimension_group_rows:8
+msgid "The end (exclusive) of the group"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_dimension_group_rows:1
+msgid "Group rows in order to hide them in the UI."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_dimension_group_rows:5
+msgid ""
+"API behavior with nested groups and non-matching ``[start:end)`` range can "
+"be found here `Add Dimension Group Request`_"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_protected_range:1
+msgid ""
+"Add protected range to the sheet. Only the editors can edit the protected "
+"range."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_protected_range:4
+msgid ""
+"Google API will automatically add the owner of this SpreadSheet. The list "
+"``editor_users_emails`` must at least contain the e-mail address used to "
+"open that SpreadSheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_protected_range:8
+msgid ""
+"``editor_users_emails`` must only contain e-mail addresses who already have "
+"a write access to the spreadsheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_protected_range:11
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.define_named_range:1
+msgid "A string with range value in A1 notation, e.g. 'A1:A5'."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_protected_range:14
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.clear_note:6
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.define_named_range:4
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_note:7
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.merge_cells:9
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.range:7 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.set_basic_filter:7
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unmerge_cells:7
+msgid ""
+"Alternatively, you may specify numeric boundaries. All values index from 1 "
+"(one):"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_protected_range:17
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.clear_note:9
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.define_named_range:7
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_note:10
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.merge_cells:12
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.range:10 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.set_basic_filter:10
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unmerge_cells:10
+msgid "First row number"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_protected_range:18
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.clear_note:10
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.define_named_range:8
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_note:11
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.merge_cells:13
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.range:11 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.set_basic_filter:11
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unmerge_cells:11
+msgid "First column number"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_protected_range:19
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.clear_note:11
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.define_named_range:9
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_note:12
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.merge_cells:14
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.range:12 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.set_basic_filter:12
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unmerge_cells:12
+msgid "Last row number"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_protected_range:20
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.clear_note:12
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.define_named_range:10
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_note:13
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.merge_cells:15
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.range:13 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.set_basic_filter:13
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unmerge_cells:13
+msgid "Last column number"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_protected_range:22
+msgid "For both A1 and numeric notation:"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_protected_range:24
+msgid ""
+"The email addresses of users with edit access to the protected range. This "
+"must include your e-mail address at least."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_protected_range:27
+msgid ""
+"(optional) The email addresses of groups with edit access to the protected "
+"range."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_protected_range:29
+msgid "(optional) Description for the protected ranges."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_protected_range:31
+msgid ""
+"(optional) When true this protected range will show a warning when editing. "
+"Defaults to ``False``."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_protected_range:33
+msgid ""
+"(optional) True if the user who requested this protected range can edit the "
+"protected cells. Defaults to ``False``."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_rows:1
+msgid "Adds rows to worksheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_rows:3
+msgid "Number of new rows to add."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_validation:1
+msgid "Adds a data validation rule to any given range."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_validation:5
+msgid "``condition_type`` values are explained here: `ConditionType`_"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_validation:10
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.cut_range:9
+msgid "The A1 notation of the source range to move"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_validation:11
+msgid "The sort of condition to apply."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_validation:12
+msgid "List of condition values."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_validation:14
+msgid "Message to show for the validation."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_validation:15
+msgid "Whether to reject invalid data or not."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_validation:16
+msgid "Whether to show a custom UI(Dropdown) for list values."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.add_validation:18
+msgid "**Examples**"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.append_row:1
+msgid "Adds a row to the worksheet and populates it with values."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.append_row:3
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.append_rows:3
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_row:4
+msgid "Widens the worksheet if there are more values than columns."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.append_row:5
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_row:6
+msgid "List of values for the new row."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.append_row:6
+msgid ""
+"(optional) Determines how the input data should be interpreted. See "
+"`ValueInputOption`_ in the Sheets API reference."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.append_row:10
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.append_rows:12
+msgid ""
+"(optional) Determines how the input data should be inserted. See "
+"`InsertDataOption`_ in the Sheets API reference."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.append_row:13
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.append_rows:15
+msgid ""
+"(optional) The A1 notation of a range to search for a logical table of data."
+" Values are appended after the last row of the table. Examples: ``A1`` or "
+"``B2:D4``"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.append_row:16
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.append_rows:18
+msgid ""
+"(optional) Determines if the update response should include the values of "
+"the cells that were appended. By default, responses do not include the "
+"updated values."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.append_rows:1
+msgid "Adds multiple rows to the worksheet and populates them with values."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.append_rows:5
+msgid "List of rows each row is List of values for the new row."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.append_rows:7
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_cols:8
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_row:8
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_rows:8
+msgid ""
+"(optional) Determines how input data should be interpreted. Possible values "
+"are ``ValueInputOption.raw`` or ``ValueInputOption.user_entered``. See "
+"`ValueInputOption`_ in the Sheets API."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_clear:1
+msgid "Clears multiple ranges of cells with 1 API call."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_clear:3
+msgid "`Batch Clear`_"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_format:1
+msgid "Formats cells in batch."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_format:3
+msgid ""
+"List of ranges to format and the new format to apply to each range.  The "
+"list is composed of dict objects with the following keys/values:  * range : "
+"A1 range notation * format : a valid dict object with the format to apply   "
+"for that range see `CellFormat`_ in the Sheets API for available fields."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_format:3
+msgid "List of ranges to format and the new format to apply to each range."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_format:6
+msgid "The list is composed of dict objects with the following keys/values:"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_format:8
+msgid "range : A1 range notation"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_format:9
+msgid ""
+"format : a valid dict object with the format to apply for that range see "
+"`CellFormat`_ in the Sheets API for available fields."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:1
+msgid "Returns one or more ranges of values from the sheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:3
+msgid "List of cell ranges in the A1 notation or named ranges."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:6
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:11 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.row_values:7
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:12
+msgid ""
+"(optional) The major dimension of the values. `Dimension.rows` (\"ROWS\") or"
+" `Dimension.cols` (\"COLUMNS\"). Defaults to Dimension.rows"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:11
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:26
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:16 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.row_values:12
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:33
+msgid ""
+"(optional) Determines how values should be rendered in the output. See "
+"`ValueRenderOption`_ in the Sheets API.  Possible values are:  "
+"``ValueRenderOption.formatted``     (default) Values will be calculated and "
+"formatted according     to the cell's formatting. Formatting is based on the"
+"     spreadsheet's locale, not the requesting user's locale.  "
+"``ValueRenderOption.unformatted``     Values will be calculated, but not "
+"formatted in the reply.     For example, if A1 is 1.23 and A2 is =A1 and "
+"formatted as     currency, then A2 would return the number 1.23.  "
+"``ValueRenderOption.formula``     Values will not be calculated. The reply "
+"will include     the formulas. For example, if A1 is 1.23 and A2 is =A1 and"
+"     formatted as currency, then A2 would return \"=A1\".  .. "
+"_ValueRenderOption: "
+"https://developers.google.com/sheets/api/reference/rest/v4/ValueRenderOption"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:15
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:39
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:30
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:54
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:20 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.get:44
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.row_values:16
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.row_values:40
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:37
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:61
+msgid "Possible values are:"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:20
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:35
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:25 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.row_values:21
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:42
+msgid "``ValueRenderOption.formatted``"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:18
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:33
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:23 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.row_values:19
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:40
+msgid ""
+"(default) Values will be calculated and formatted according to the cell's "
+"formatting. Formatting is based on the spreadsheet's locale, not the "
+"requesting user's locale."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:25
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:40
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:30 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.row_values:26
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:47
+msgid "``ValueRenderOption.unformatted``"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:23
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:38
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:28 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.row_values:24
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:45
+msgid ""
+"Values will be calculated, but not formatted in the reply. For example, if "
+"A1 is 1.23 and A2 is =A1 and formatted as currency, then A2 would return the"
+" number 1.23."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:30
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:45
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:35 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.row_values:31
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:52
+msgid "``ValueRenderOption.formula``"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:28
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:43
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:33 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.row_values:29
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:50
+msgid ""
+"Values will not be calculated. The reply will include the formulas. For "
+"example, if A1 is 1.23 and A2 is =A1 and formatted as currency, then A2 "
+"would return \"=A1\"."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:36
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:51
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:41 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.row_values:37
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:58
+msgid ""
+"(optional) How dates, times, and durations should be represented in the "
+"output.  Possible values are:  ``DateTimeOption.serial_number``     "
+"(default) Instructs date, time, datetime, and duration fields     to be "
+"output as doubles in \"serial number\" format,     as popularized by Lotus "
+"1-2-3.  ``DateTimeOption.formatted_string``     Instructs date, time, "
+"datetime, and duration fields to be output     as strings in their given "
+"number format     (which depends on the spreadsheet locale).  .. note::"
+"      This is ignored if ``value_render_option`` is "
+"``ValueRenderOption.formatted``.  The default ``date_time_render_option`` is"
+" ``DateTimeOption.serial_number``."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:36
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:51
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:41 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.row_values:37
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:58
+msgid ""
+"(optional) How dates, times, and durations should be represented in the "
+"output."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:44
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:59
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:49 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.row_values:45
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:66
+msgid "``DateTimeOption.serial_number``"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:42
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:57
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:47 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.row_values:43
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:64
+msgid ""
+"(default) Instructs date, time, datetime, and duration fields to be output "
+"as doubles in \"serial number\" format, as popularized by Lotus 1-2-3."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:49
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:64
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:54 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.row_values:50
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:71
+msgid "``DateTimeOption.formatted_string``"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:47
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:62
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:52 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.row_values:48
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:69
+msgid ""
+"Instructs date, time, datetime, and duration fields to be output as strings "
+"in their given number format (which depends on the spreadsheet locale)."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:53
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:68
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:58 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.row_values:54
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:75
+msgid ""
+"This is ignored if ``value_render_option`` is "
+"``ValueRenderOption.formatted``."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_get:55
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:70
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:60 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.row_values:56
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:77
+msgid ""
+"The default ``date_time_render_option`` is ``DateTimeOption.serial_number``."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:1
+msgid "Sets values in one or more cell ranges of the sheet at once."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:3
+msgid ""
+"List of dictionaries in the form of `{'range': '...', 'values': [[.., ..], "
+"...]}` where `range` is a target range to update in A1 notation or a named "
+"range, and `values` is a list of lists containing new values."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:8
+msgid ""
+"(optional) How the input data should be interpreted. Possible values are:  *"
+" ``ValueInputOption.raw``    The values the user has entered will not be "
+"parsed and will be   stored as-is.  * ``ValueInputOption.user_entered``    "
+"The values will be parsed as if the user typed them into the   UI. Numbers "
+"will stay as numbers, but strings may be converted   to numbers, dates, etc."
+" following the same rules that are   applied when entering text into a cell "
+"via   the Google Sheets UI."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:8
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:17
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_cells:4
+msgid ""
+"(optional) How the input data should be interpreted. Possible values are:"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:11
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:22
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_cells:9
+msgid "``ValueInputOption.raw``"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:13
+msgid ""
+"The values the user has entered will not be parsed and will be stored as-is."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:16
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:29
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_cells:16
+msgid "``ValueInputOption.user_entered``"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.batch_update:18
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:25
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_cells:12
+msgid ""
+"The values will be parsed as if the user typed them into the UI. Numbers "
+"will stay as numbers, but strings may be converted to numbers, dates, etc. "
+"following the same rules that are applied when entering text into a cell via"
+" the Google Sheets UI."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.cell:1
+msgid ""
+"Returns an instance of a :class:`gspread.cell.Cell` located at `row` and "
+"`col` column."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.cell:4 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.update_cell:3
+msgid "Row number."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.cell:6 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.update_cell:4
+msgid "Column number."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.cell:20 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.find:12
+msgid ":class:`gspread.cell.Cell`"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.clear:1
+msgid "Clears all cells in the worksheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.clear_basic_filter:1
+msgid "Remove the basic filter from a worksheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.clear_note:1
+msgid "Clear a note. The note is attached to a certain cell."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.clear_note:3
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_note:4
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_note:3
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_note:3
+msgid "A string with cell coordinates in A1 notation, e.g. 'D7'."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.clear_notes:1
+msgid ""
+"Clear all notes located at the at the coordinates pointed to by ``ranges``."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.clear_notes:4
+msgid ""
+"List of A1 coordinates where to clear the notes. e.g. ``[\"A1\", \"GH42\", "
+"\"D7\"]``"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.clear_tab_color:1
+msgid ""
+"Clears the worksheet's tab color. Use update_tab_color() to set the color."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.col_count:5
+msgid ""
+"This value is fetched when opening the worksheet. This is not dynamically "
+"updated when adding columns, yet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.col_values:1
+msgid "Returns a list of all values in column `col`."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.col_values:3
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.row_values:3
+msgid "Empty cells in this list will be rendered as :const:`None`."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.col_values:5
+msgid "Column number (one-based)."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.column_count:1
+msgid "Number of columns"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.columns_auto_resize:1
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.rows_auto_resize:1
+msgid "Updates the size of rows or columns in the  worksheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.columns_auto_resize:3
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.rows_auto_resize:3
+msgid "Index start from 0"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.columns_auto_resize:5
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.rows_auto_resize:5
+msgid "The index (inclusive) to begin resizing"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.columns_auto_resize:6
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.rows_auto_resize:6
+msgid "The index (exclusive) to finish resizing"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.copy_range:1
+msgid "Copies a range of data from source to dest"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.copy_range:5
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.cut_range:5
+msgid "``paste_type`` values are explained here: `Paste Types`_"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.copy_range:9
+msgid "The A1 notation of the source range to copy"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.copy_range:10
+msgid ""
+"The A1 notation of the destination where to paste the data Can be the A1 "
+"notation of the top left corner where the range must be paste ex: G16, or a "
+"complete range notation ex: G16:I20. The dimensions of the destination range"
+" is not checked and has no effect, if the destination range does not match "
+"the source range dimension, the entire source range is copies anyway."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.copy_range:16
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.cut_range:12
+msgid ""
+"the paste type to apply. Many paste type are available from the Sheet API, "
+"see above note for detailed values for all values and their effects. "
+"Defaults to ``PasteType.normal``"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.copy_range:20
+msgid ""
+"The paste orient to apply. Possible values are: ``normal`` to keep the same "
+"orientation, ``transpose`` where all rows become columns and vice versa."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.copy_to:1
+msgid "Copies this sheet to another spreadsheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.copy_to:3
+msgid "The ID of the spreadsheet to copy the sheet to."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.copy_to:5
+msgid ""
+"a dict with the response containing information about the newly created "
+"sheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.cut_range:1
+msgid "Moves a range of data form source to dest"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.cut_range:10
+msgid ""
+"The A1 notation of the destination where to paste the data **it must be a "
+"single cell** in the A1 notation. ex: G16"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.define_named_range:12
+msgid "The name to assign to the range of cells"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.define_named_range:14
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_named_range:4
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.merge_cells:17
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unmerge_cells:15
+msgid "the response body from the request"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_columns:1
+msgid "Deletes multiple columns from the worksheet at the specified index."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_columns:3
+msgid "Index of a first column for deletion."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_columns:4
+msgid ""
+"Index of a last column for deletion. When end_index is not specified this "
+"method only deletes a single column at ``start_index``."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_dimension:1
+msgid "Deletes multi rows from the worksheet at the specified index."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_dimension:3
+msgid "A dimension to delete. ``Dimension.rows`` or ``Dimension.cols``."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_dimension:5
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_rows:3
+msgid "Index of a first row for deletion."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_dimension:6
+msgid ""
+"Index of a last row for deletion. When ``end_index`` is not specified this "
+"method only deletes a single row at ``start_index``."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_dimension_group_columns:1
+msgid "Remove the grouping of a set of columns."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_dimension_group_columns:5
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_dimension_group_rows:4
+msgid ""
+"API behavior with nested groups and non-matching ``[start:end)`` range can "
+"be found here `Delete Dimension Group Request`_"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_dimension_group_rows:1
+msgid "Remove the grouping of a set of rows."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_named_range:1
+msgid ""
+"The ID of the named range to delete. Can be obtained with "
+"Spreadsheet.list_named_ranges()"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_protected_range:1
+msgid "Delete protected range identified by the ID ``id``."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_protected_range:3
+msgid ""
+"To retrieve the ID of a protected range use the following method to list "
+"them all: :func:`~gspread.Spreadsheet.list_protected_ranges`"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_rows:1
+msgid "Deletes multiple rows from the worksheet at the specified index."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.delete_rows:4
+msgid ""
+"Index of a last row for deletion. When end_index is not specified this "
+"method only deletes a single row at ``start_index``."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.duplicate:1
+msgid "Duplicate the sheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.duplicate:12
+msgid "a newly created :class:`gspread.worksheet.Worksheet`."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.find:1
+msgid "Finds the first cell matching the query."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.find:3 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.findall:5
+msgid "A literal string to match or compiled regular expression."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.find:5 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.findall:7
+msgid "(optional) One-based row number to scope the search."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.find:6 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.findall:8
+msgid "(optional) One-based column number to scope the search."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.find:8 ../../../gspread/worksheet.pydocstring
+#: of gspread.worksheet.Worksheet.findall:10
+msgid ""
+"(optional) comparison is case sensitive if set to True, case insensitive "
+"otherwise. Default is True. Does not apply to regular expressions."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.find:11
+msgid "the first matching cell or None otherwise"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.findall:1
+msgid "Finds all cells matching the query."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.findall:3
+msgid "Returns a list of :class:`gspread.cell.Cell`."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.findall:13
+msgid "the list of all matching cells or empty list otherwise"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.format:1
+msgid "Format a list of ranges with the given format."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.format:3
+msgid "Target ranges in the A1 notation."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.format:4
+msgid ""
+"Dictionary containing the fields to update. See `CellFormat`_ in the Sheets "
+"API for available fields."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.freeze:1
+msgid "Freeze rows and/or columns on the worksheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.freeze:3
+msgid "Number of rows to freeze."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.freeze:4
+msgid "Number of columns to freeze."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.frozen_col_count:1
+msgid "Number of frozen columns."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.frozen_row_count:1
+msgid "Number of frozen rows."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of gspread.worksheet.Worksheet.get:1
+msgid "Reads values of a single range or a cell of a sheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of gspread.worksheet.Worksheet.get:3
+msgid ""
+"Returns a ValueRange (list of lists) containing all values from a specified "
+"range or cell"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of gspread.worksheet.Worksheet.get:5
+msgid ""
+"By default values are returned as strings. See ``value_render_option`` to "
+"change the default format."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of gspread.worksheet.Worksheet.get:8
+msgid ""
+"(optional) Cell range in the A1 notation or a named range. If not specified "
+"the method returns values from all non empty cells."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:63
+msgid ""
+"(optional) If True, then all cells that are part of a merged cell will have "
+"the same value as the top-left cell of the merged cell. Defaults to False.  "
+".. warning::      Setting this to True will cause an additional API request "
+"to be     made to retrieve the values of all merged cells."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:63
+msgid ""
+"(optional) If True, then all cells that are part of a merged cell will have "
+"the same value as the top-left cell of the merged cell. Defaults to False."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:69
+msgid ""
+"Setting this to True will cause an additional API request to be made to "
+"retrieve the values of all merged cells."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:72
+msgid ""
+"(optional) If True, then the returned values will have the same size as the "
+"requested range_name. Defaults to False."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:75
+msgid ""
+"(optional) If True, then empty cells will be filled with empty strings. "
+"Defaults to False.  .. warning::          The returned array will not be "
+"rectangular unless this is set to True. If this is a problem, see also "
+"`maintain_size`."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:75
+msgid ""
+"(optional) If True, then empty cells will be filled with empty strings. "
+"Defaults to False."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:80
+msgid ""
+"The returned array will not be rectangular unless this is set to True. If "
+"this is a problem, see also `maintain_size`."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:82
+msgid ""
+"(optional) The type of object to return. Defaults to "
+":class:`gspread.utils.GridRangeType.ValueRange`. The other option is "
+"`gspread.utils.GridRangeType.ListOfLists`."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get:86
+msgid ":class:`gspread.worksheet.ValueRange`"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_all_cells:1
+msgid "Returns a list of all `Cell` of the current sheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_all_records:1
+msgid ""
+"Returns a list of dictionaries, all of them having the contents of the "
+"spreadsheet with the head row as keys and each of these dictionaries holding"
+" the contents of subsequent rows of cells as values."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_all_records:6
+msgid ""
+"This method uses the function :func:`gspread.utils.to_records` to build the "
+"resulting records. It mainly wraps around the function and handle the "
+"simplest use case using a header row (default = 1) and the the reste of the "
+"entire sheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_all_records:12
+msgid ""
+"for any particular use-case, please get your dataset, your headers then use "
+"the function :func:`gspread.utils.to_records` to build the records."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_all_records:15
+msgid ""
+"Cell values are numericised (strings that can be read as ints or floats are "
+"converted), unless specified in numericise_ignore"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_all_records:18
+msgid ""
+"(optional) Determines which row to use as keys, starting from 1 following "
+"the numeration of the spreadsheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_all_records:20
+msgid ""
+"(optional) List of expected headers, they must be unique.  .. note::      "
+"returned dictionaries will contain all headers even if not included in this "
+"list"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_all_records:20
+msgid "(optional) List of expected headers, they must be unique."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_all_records:24
+msgid ""
+"returned dictionaries will contain all headers even if not included in this "
+"list"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_all_records:29
+msgid ""
+"(optional) Determines which value to use for blank cells, defaults to empty "
+"string."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_all_records:31
+msgid ""
+"(optional) List of ints of indices of the columns (starting at 1) to ignore "
+"numericising, special use of ['all'] to ignore numericising on all columns."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_all_records:34
+msgid ""
+"(optional) Allow underscores in numeric literals, as introduced in PEP 515"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_all_records:36
+msgid ""
+"(optional) Determines whether empty cells are converted to zeros when "
+"numericised, defaults to False."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_all_values:1
+msgid "Alias to :meth:`~gspread.worksheet.Worksheet.get_values`"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_note:1
+msgid ""
+"Get the content of the note located at `cell`, or the empty string if the "
+"cell does not have a note."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_notes:1
+msgid "Returns a list of lists containing all notes in the sheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_notes:5
+msgid ""
+"The resulting matrix is not necessarily square. The matrix is as tall as the"
+" last row with a note, and each row is only as long as the last column in "
+"that row with a note."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_notes:10
+msgid ""
+"Please see the example below. To ensure it is square, use "
+"`gspread.utils.fill_gaps`, for example like `utils.fill_gaps(arr, len(arr), "
+"max(len(a) for a in arr), None)`"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_notes:14
+msgid ""
+"(optional) Determines which value to use for cells without notes, defaults "
+"to None."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_tab_color:1
+msgid "Tab color style in hex format. String."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_values:1
+msgid "Alias for :meth:`~gspread.worksheet.Worksheet.get`..."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.get_values:3
+msgid ""
+"with ``return_type`` set to ``List[List[Any]]`` and ``pad_values`` set to "
+"``True`` (legacy method)"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.hide:1
+msgid "Hides the current worksheet from the UI."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.hide_columns:1
+msgid "Explicitly hide the given column index range."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.hide_columns:3
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.hide_rows:3
+msgid "Index starts from 0."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.hide_columns:5
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unhide_columns:5
+msgid "The (inclusive) starting column to hide"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.hide_columns:6
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unhide_columns:6
+msgid "The (exclusive) end column to hide"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.hide_gridlines:1
+msgid "Hide gridlines on the current worksheet"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.hide_rows:1
+msgid "Explicitly hide the given row index range."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.hide_rows:5
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unhide_rows:5
+msgid "The (inclusive) starting row to hide"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.hide_rows:6
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unhide_rows:6
+msgid "The (exclusive) end row to hide"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of gspread.worksheet.Worksheet.id:1
+msgid "Worksheet ID."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.index:1
+msgid "Worksheet index."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_cols:1
+msgid ""
+"Adds multiple new cols to the worksheet at specified index and populates "
+"them with values."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_cols:4
+msgid ""
+"List of col lists. a list of lists, with the lists each containing one col's"
+" values. Increases the number of rows if there are more values than columns."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_cols:7
+msgid "Start col to update (one-based). Defaults to 1 (one)."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_cols:13
+msgid ""
+"(optional) If True, new columns will inherit their properties from the "
+"previous column. Defaults to False, meaning that new columns acquire the "
+"properties of the column immediately after them.  .. warning::     "
+"`inherit_from_before` must be False if adding at the left edge    of a "
+"spreadsheet (`col=1`), and must be True if adding at the    right edge of "
+"the spreadsheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_cols:13
+msgid ""
+"(optional) If True, new columns will inherit their properties from the "
+"previous column. Defaults to False, meaning that new columns acquire the "
+"properties of the column immediately after them."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_cols:20
+msgid ""
+"`inherit_from_before` must be False if adding at the left edge of a "
+"spreadsheet (`col=1`), and must be True if adding at the right edge of the "
+"spreadsheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_note:1
+msgid "Insert a note. The note is attached to a certain cell."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_note:5
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_note:5
+msgid "The text note to insert."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_notes:1
+msgid "insert multiple notes. The notes are attached to a certain cell."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_notes:3
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_notes:3
+msgid ""
+"A dict of notes with their cells coordinates and respective content  dict "
+"format is:  * key: the cell coordinates as A1 range format * value: the "
+"string content of the cell  Example::      {         \"D7\": \"Please read "
+"my notes\",         \"GH42\": \"this one is too far\",     }"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_notes:3
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_notes:3
+msgid "A dict of notes with their cells coordinates and respective content"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_notes:5
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_notes:5
+msgid "dict format is:"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_notes:7
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_notes:7
+msgid "key: the cell coordinates as A1 range format"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_notes:8
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_notes:8
+msgid "value: the string content of the cell"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_row:1
+msgid ""
+"Adds a row to the worksheet at the specified index and populates it with "
+"values."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_row:7
+msgid "(optional) Offset for the newly inserted row."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_row:13
+msgid ""
+"(optional) If True, the new row will inherit its properties from the "
+"previous row. Defaults to False, meaning that the new row acquires the "
+"properties of the row immediately after it.  .. warning::     "
+"`inherit_from_before` must be False when adding a row to the top    of a "
+"spreadsheet (`index=1`), and must be True when adding to    the bottom of "
+"the spreadsheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_row:13
+msgid ""
+"(optional) If True, the new row will inherit its properties from the "
+"previous row. Defaults to False, meaning that the new row acquires the "
+"properties of the row immediately after it."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_row:20
+msgid ""
+"`inherit_from_before` must be False when adding a row to the top of a "
+"spreadsheet (`index=1`), and must be True when adding to the bottom of the "
+"spreadsheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_rows:1
+msgid ""
+"Adds multiple rows to the worksheet at the specified index and populates "
+"them with values."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_rows:4
+msgid ""
+"List of row lists. a list of lists, with the lists each containing one row's"
+" values. Widens the worksheet if there are more values than columns."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_rows:7
+msgid "Start row to update (one-based). Defaults to 1 (one)."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_rows:13
+msgid ""
+"(optional) If true, new rows will inherit their properties from the previous"
+" row. Defaults to False, meaning that new rows acquire the properties of the"
+" row immediately after them.  .. warning::     `inherit_from_before` must be"
+" False when adding rows to the top    of a spreadsheet (`row=1`), and must "
+"be True when adding to    the bottom of the spreadsheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_rows:13
+msgid ""
+"(optional) If true, new rows will inherit their properties from the previous"
+" row. Defaults to False, meaning that new rows acquire the properties of the"
+" row immediately after them."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.insert_rows:20
+msgid ""
+"`inherit_from_before` must be False when adding rows to the top of a "
+"spreadsheet (`row=1`), and must be True when adding to the bottom of the "
+"spreadsheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.isSheetHidden:1
+msgid "Worksheet hidden status."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.is_gridlines_hidden:1
+msgid ""
+"Whether or not gridlines hidden. Boolean. True if hidden. False if shown."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.list_dimension_group_columns:1
+msgid "List all the grouped columns in this worksheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.list_dimension_group_columns:3
+msgid "list of the grouped columns"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.list_dimension_group_rows:1
+msgid "List all the grouped rows in this worksheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.list_dimension_group_rows:3
+msgid "list of the grouped rows"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.merge_cells:1
+msgid "Merge cells."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.merge_cells:3
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unmerge_cells:5
+msgid "Range name in A1 notation, e.g. 'A1:A5'."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.merge_cells:4
+msgid ""
+"(optional) one of ``MergeType.merge_all``, ``MergeType.merge_columns``, or "
+"``MergeType.merge_rows``. Defaults to ``MergeType.merge_all``. See "
+"`MergeType`_ in the Sheets API reference."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.range:1
+msgid ""
+"Returns a list of :class:`gspread.cell.Cell` objects from a specified range."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.range:3
+msgid ""
+"A string with range value in A1 notation (e.g. 'A1:A5') or the named range "
+"to fetch."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.resize:1
+msgid "Resizes the worksheet. Specify one of ``rows`` or ``cols``."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.resize:3
+msgid "(optional) New number of rows."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.resize:4
+msgid "(optional) New number columns."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.row_values:1
+msgid "Returns a list of all values in a `row`."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.row_values:5
+msgid "Row number (one-based)."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.set_basic_filter:1
+msgid ""
+"Add a basic filter to the worksheet. If a range or boundaries are passed, "
+"the filter will be limited to the given range."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.set_basic_filter:4
+msgid "A string with range value in A1 notation, e.g. ``A1:A5``."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.show:1
+msgid "Show the current worksheet in the UI."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.show_gridlines:1
+msgid "Show gridlines on the current worksheet"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.sort:1
+msgid "Sorts worksheet using given sort orders."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.sort:3
+msgid ""
+"The sort order per column. Each sort order represented by a tuple where the "
+"first element is a column index and the second element is the order itself: "
+"'asc' or 'des'."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.sort:6
+msgid ""
+"The range to sort in A1 notation. By default sorts the whole sheet excluding"
+" frozen rows."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.spreadsheet:1
+msgid "Parent spreadsheet"
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.tab_color:1
+msgid "Tab color style. Hex with RGB color values."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.title:1
+msgid "Worksheet title."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unhide_columns:1
+msgid "Explicitly unhide the given column index range."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unhide_columns:3
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unhide_rows:3
+msgid "Index start from 0."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unhide_rows:1
+msgid "Explicitly unhide the given row index range."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unmerge_cells:1
+msgid "Unmerge cells."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.unmerge_cells:3
+msgid "Unmerge previously merged cells."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:1
+msgid "Sets values in a cell range of the sheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:3
+msgid "The data to be written in a matrix format."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:4
+msgid "(optional) The A1 notation of the values to update."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:7
+msgid ""
+"The values will not be parsed by Sheets API and will be stored as-is. For "
+"example, formulas will be rendered as plain strings. Defaults to ``True``. "
+"This is a shortcut for the ``value_input_option`` parameter."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:17
+msgid ""
+"(optional) How the input data should be interpreted. Possible values are:  "
+"``ValueInputOption.raw``     (default) The values the user has entered will "
+"not be parsed and will be     stored as-is.  "
+"``ValueInputOption.user_entered``     The values will be parsed as if the "
+"user typed them into the     UI. Numbers will stay as numbers, but strings "
+"may be converted     to numbers, dates, etc. following the same rules that "
+"are     applied when entering text into a cell via     the Google Sheets UI."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update:21
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_cells:8
+msgid ""
+"(default) The values the user has entered will not be parsed and will be "
+"stored as-is."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_acell:1
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_cell:1
+msgid "Updates the value of a cell."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_acell:3
+msgid "Cell label in A1 notation."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_acell:4
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_cell:5
+msgid "New value."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_cells:1
+msgid "Updates many cells at once."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_cells:3
+msgid "List of :class:`gspread.cell.Cell` objects to update."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_cells:4
+msgid ""
+"(optional) How the input data should be interpreted. Possible values are:  "
+"``ValueInputOption.raw``     (default) The values the user has entered will "
+"not be parsed and will be     stored as-is.  "
+"``ValueInputOption.user_entered``     The values will be parsed as if the "
+"user typed them into the     UI. Numbers will stay as numbers, but strings "
+"may be converted     to numbers, dates, etc. following the same rules that "
+"are     applied when entering text into a cell via     the Google Sheets UI."
+"  See `ValueInputOption`_ in the Sheets API."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_cells:18
+msgid "See `ValueInputOption`_ in the Sheets API."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_index:1
+msgid "Updates the ``index`` property for the worksheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_index:3
+msgid ""
+"See the `Sheets API documentation "
+"<https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets#sheetproperties>`_"
+" for information on how updating the index property affects the order of "
+"worksheets in a spreadsheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_index:8
+msgid ""
+"To reorder all worksheets in a spreadsheet, see "
+"`Spreadsheet.reorder_worksheets`."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_note:1
+msgid "Update the content of the note located at `cell`."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_notes:1
+msgid "update multiple notes. The notes are attached to a certain cell."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_tab_color:1
+msgid ""
+"Changes the worksheet's tab color. Use clear_tab_color() to remove the "
+"color."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_tab_color:4
+msgid "Hex color value."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of
+#: gspread.worksheet.Worksheet.update_title:1
+msgid "Renames the worksheet."
+msgstr ""
+
+#: ../../../gspread/worksheet.pydocstring of gspread.worksheet.Worksheet.url:1
+msgid "Worksheet URL."
+msgstr ""
+
+#: ../../api/top-level.rst:2
+msgid "Top level"
+msgstr ""
+
+#: ../../api/utils.rst:2
+msgid "Utils"
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils:2
+msgid "gspread.utils"
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils:4
+msgid "This module contains utility functions."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.a1_range_to_grid_range:1
+msgid ""
+"Converts a range defined in A1 notation to a dict representing a "
+"`GridRange`_."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.a1_range_to_grid_range:4
+msgid ""
+"All indexes are zero-based. Indexes are half open, e.g the start index is "
+"inclusive and the end index is exclusive: [startIndex, endIndex)."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.a1_range_to_grid_range:7
+msgid "Missing indexes indicate the range is unbounded on that side."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.a1_to_rowcol:1
+msgid "Translates a cell's address in A1 notation to a tuple of integers."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.a1_to_rowcol:3
+msgid "A cell label in A1 notation, e.g. 'B1'. Letter case is ignored."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.a1_to_rowcol:5
+msgid ""
+"a tuple containing `row` and `column` numbers. Both indexed from 1 (one)."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.absolute_range_name:1
+msgid "Return an absolutized path of a range."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.cast_to_a1_notation:1
+msgid ""
+"Decorator function casts wrapped arguments to A1 notation in range method "
+"calls."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.column_letter_to_index:1
+msgid "Converts a column letter to its numerical index."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.column_letter_to_index:3
+msgid ""
+"This is useful when using the method "
+":meth:`gspread.worksheet.Worksheet.col_values`. Which requires a column "
+"index."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.column_letter_to_index:6
+msgid "This function is case-insensitive."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.column_letter_to_index:8
+msgid ""
+"Raises :exc:`gspread.exceptions.InvalidInputValue` in case of invalid input."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.combined_merge_values:1
+msgid ""
+"For each merged region, replace all values with the value of the top-left "
+"cell of the region. e.g., replaces [ [1, None, None], [None, None, None], ] "
+"with [ [1, 1, None], [1, 1, None], ] if the top-left four cells are merged."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.combined_merge_values:14
+msgid ""
+"The metadata returned by the Google API for the worksheet. Should have a "
+"\"merges\" key."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.combined_merge_values:17
+msgid "The values returned by the Google API for the worksheet. 2D array."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.combined_merge_values:19
+msgid ""
+"The index of the first row of the values in the worksheet. e.g., if the "
+"values are in rows 3-5, this should be 2."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.combined_merge_values:22
+msgid ""
+"The index of the first column of the values in the worksheet. e.g., if the "
+"values are in columns C-E, this should be 2."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.combined_merge_values:25
+msgid ""
+"matrix of values with merged coordinates filled according to top-left value"
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_colors_to_hex_value:1
+msgid "Convert RGB color values to a hex color code."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_colors_to_hex_value:3
+msgid "Red color value (0-1)."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_colors_to_hex_value:4
+msgid "Green color value (0-1)."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_colors_to_hex_value:5
+msgid "Blue color value (0-1)."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_colors_to_hex_value:7
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_hex_to_colors_dict:3
+msgid "Hex color code in the format \"#RRGGBB\"."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_colors_to_hex_value:11
+msgid "ValueError: If any color value is out of the accepted range (0-1)."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_hex_to_colors_dict:1
+msgid "Convert a hex color code to RGB color values."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_hex_to_colors_dict:5
+msgid ""
+"Dict containing the color's red, green and blue values between 0 and 1."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_hex_to_colors_dict:9
+msgid ""
+"ValueError: If the input hex string is not in the correct format or length."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.convert_hex_to_colors_dict:15
+#: ../../../gspread/utils.pydocstring of gspread.utils.is_full_a1_notation:11
+msgid "Examples:"
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.fill_gaps:1
+msgid "Fill gaps in a list of lists. e.g.,::"
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.fill_gaps:13
+msgid "List of lists to fill gaps in."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.fill_gaps:14
+msgid "Number of rows to fill."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.fill_gaps:15
+msgid "Number of columns to fill."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.fill_gaps:16
+msgid "Default value to fill gaps with."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.fill_gaps:23
+msgid "List of lists with gaps filled."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.finditem:1
+msgid "Finds and returns first item in iterable for which func(item) is True."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.get_a1_from_absolute_range:1
+msgid ""
+"Get the A1 notation from an absolute range name. \"Sheet1!A1:B2\" -> "
+"\"A1:B2\" \"A1:B2\" -> \"A1:B2\""
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.get_a1_from_absolute_range:6
+#: ../../../gspread/utils.pydocstring of gspread.utils.is_full_a1_notation:6
+msgid "Args:"
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.get_a1_from_absolute_range:6
+#: ../../../gspread/utils.pydocstring of gspread.utils.is_full_a1_notation:6
+msgid "range_name (str): The range name to check."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.get_a1_from_absolute_range:8
+#: ../../../gspread/utils.pydocstring of gspread.utils.is_full_a1_notation:9
+msgid "Returns:"
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of
+#: gspread.utils.get_a1_from_absolute_range:9
+msgid "str: The A1 notation of the range name stripped of the sheet."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.is_full_a1_notation:1
+msgid ""
+"Check if the range name is a full A1 notation. \"A1:B2\", \"Sheet1!A1:B2\" "
+"are full A1 notations \"A1:B\", \"A1\" are not"
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.is_full_a1_notation:9
+msgid "bool: True if the range name is a full A1 notation, False otherwise."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.is_scalar:1
+msgid "Return True if the value is scalar."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.is_scalar:3
+msgid "A scalar is not a sequence but can be a string."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.numericise:1
+msgid "Returns a value that depends on the input:"
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.numericise:3
+msgid "Float if input is a string that can be converted to Float"
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.numericise:4
+msgid "Integer if input is a string that can be converted to integer"
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.numericise:5
+msgid "Zero if the input is a string that is empty and empty2zero flag is set"
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.numericise:6
+msgid "The unmodified input value, otherwise."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.numericise_all:1
+msgid ""
+"Returns a list of numericised values from strings except those from the row "
+"specified as ignore."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.numericise_all:4
+msgid "Input row"
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.numericise_all:5
+msgid ""
+"(optional) Whether or not to return empty cells as 0 (zero). Defaults to "
+"``False``."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.numericise_all:7
+msgid "Which value to use for blank cells, defaults to empty string."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.numericise_all:9
+msgid "Whether or not to allow visual underscores in numeric literals"
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.numericise_all:11
+msgid "List of ints of indices of the row (index 1) to ignore numericising."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.rowcol_to_a1:1
+msgid "Translates a row and column cell address to A1 notation."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.rowcol_to_a1:3
+msgid "The row of the cell to be converted. Rows start at index 1."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.rowcol_to_a1:7
+msgid "The column of the cell to be converted. Columns start at index 1."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.rowcol_to_a1:11
+msgid "a string containing the cell's coordinates in A1 notation."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.to_records:1
+msgid ""
+"Builds the list of dictionaries, all of them have the headers sequence as "
+"keys set, each key is associated to the corresponding value for the same "
+"index in each list from the matrix ``values``. There are as many "
+"dictionaries as they are entry in the list of given values."
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.to_records:6
+msgid "headers the key set for all dictionaries"
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.to_records:7
+msgid "values a matrix of values"
+msgstr ""
+
+#: ../../../gspread/utils.pydocstring of gspread.utils.wid_to_gid:1
+msgid "Calculate gid of a worksheet from its wid."
+msgstr ""

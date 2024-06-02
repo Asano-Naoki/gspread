@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Anton Burnashev
+# This file is distributed under the same license as the gspread package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gspread 6.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-02 14:47+0900\n"
+"PO-Revision-Date: 2024-06-02 05:58+0000\n"
+"Language-Team: Japanese (https://app.transifex.com/asano-naoki/teams/193369/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../advanced.rst:2
+msgid "Advanced Usage"
+msgstr ""
+
+#: ../../advanced.rst:5
+msgid "Custom Authentication"
+msgstr ""
+
+#: ../../advanced.rst:8
+msgid "Google Colaboratory"
+msgstr ""
+
+#: ../../advanced.rst:10
+msgid ""
+"If you familiar with the Jupyter Notebook, `Google Colaboratory "
+"<https://colab.research.google.com/>`_ is probably the easiest way to get "
+"started using gspread::"
+msgstr ""
+
+#: ../../advanced.rst:21
+msgid ""
+"See the full example in the `External data: Local Files, Drive, Sheets, and "
+"Cloud Storage "
+"<https://colab.research.google.com/notebooks/io.ipynb#scrollTo=sOm9PFrT8mGG>`_"
+" notebook."
+msgstr ""
+
+#: ../../advanced.rst:25
+msgid "Using Authlib"
+msgstr ""
+
+#: ../../advanced.rst:27
+msgid ""
+"Using ``Authlib`` instead of ``google-auth``. Similar to "
+"`google.auth.transport.requests.AuthorizedSession <https://google-"
+"auth.readthedocs.io/en/latest/reference/google.auth.transport.requests.html#google.auth.transport.requests.AuthorizedSession>`_"
+" Authlib's ``AssertionSession`` can automatically refresh tokens.::"
+msgstr ""
