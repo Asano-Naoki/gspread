@@ -31,81 +31,81 @@ msgstr "`gspread`_ はGoogle Sheets（Google スプレッドシート）を扱�
 
 #: ../../index.rst:6
 msgid "Features:"
-msgstr ""
+msgstr "以下のような特徴があります。"
 
 #: ../../index.rst:8
 msgid "Google Sheets API v4."
-msgstr ""
+msgstr "Google Sheets API v4対応"
 
 #: ../../index.rst:9
 msgid "Open a spreadsheet by title, key or url."
-msgstr ""
+msgstr "タイトル、スプレッドシートキー、URLからのアクセス"
 
 #: ../../index.rst:10
 msgid "Read, write, and format cell ranges."
-msgstr ""
+msgstr "セル範囲の読み書きとフォーマット"
 
 #: ../../index.rst:11
 msgid "Sharing and access control."
-msgstr ""
+msgstr "共有とアクセスコントロール"
 
 #: ../../index.rst:12
 msgid "Batching updates."
-msgstr ""
+msgstr "バッチアップデート"
 
 #: ../../index.rst:16
 msgid "Installation"
-msgstr ""
+msgstr "インストール"
 
 #: ../../index.rst:23
 msgid "Requirements: Python 3+."
-msgstr ""
+msgstr "Python3以上が必須です。"
 
 #: ../../index.rst:27
 msgid "Quick Example"
-msgstr ""
+msgstr "簡単な例"
 
 #: ../../index.rst:49
 msgid "Getting Started"
-msgstr ""
+msgstr "はじめに"
 
 #: ../../index.rst:58
 msgid "Usage"
-msgstr ""
+msgstr "使い方"
 
 #: ../../index.rst:66
 msgid "Advanced"
-msgstr ""
+msgstr "発展的な使い方"
 
 #: ../../index.rst:75
 msgid "API Documentation"
-msgstr ""
+msgstr "APIドキュメント"
 
 #: ../../index.rst:84
 msgid "How to Contribute"
-msgstr ""
+msgstr "貢献"
 
 #: ../../index.rst:86
 msgid "Please make sure to take a moment and read the `Code of Conduct`_."
-msgstr ""
+msgstr "`行動規範（英語）`_ をお読みください。"
 
 #: ../../index.rst:89
 msgid "Ask Questions"
-msgstr ""
+msgstr "質問"
 
 #: ../../index.rst:91
 msgid ""
 "The best way to get an answer to a question is to ask on `Stack Overflow "
 "with a gspread tag`_."
-msgstr ""
+msgstr "`gspreadタグがつけられたStack Overflow（英語）`_ を利用することをおすすめします。"
 
 #: ../../index.rst:95
 msgid "Report Issues"
-msgstr ""
+msgstr "報告"
 
 #: ../../index.rst:97
 msgid "Please report bugs and suggest features via the `GitHub Issues`_."
-msgstr ""
+msgstr "バグ報告と機能提案は `GitHub Issues（英語）`_ でお願いします。"
 
 #: ../../index.rst:99
 msgid ""
@@ -113,29 +113,30 @@ msgid ""
 "find a duplicate, please add a comment saying that you encountered the "
 "problem as well."
 msgstr ""
+"新しいイシューを立てる前に、既存のイシューと重複しないか確認してください。重複するようなら、既存のイシューにコメントするようにしてください。"
 
 #: ../../index.rst:104
 msgid "Contribute code"
-msgstr ""
+msgstr "コードの貢献"
 
 #: ../../index.rst:106
 msgid ""
 "Please make sure to read the `Contributing Guide`_ before making a pull "
 "request."
-msgstr ""
+msgstr "プルリクエストをする前に `貢献ガイド（英語）`_ を一読してください。"
 
 #: ../../index.rst:110
 msgid "Indices and tables"
-msgstr ""
+msgstr "索引"
 
 #: ../../index.rst:112
 msgid ":ref:`genindex`"
-msgstr ""
+msgstr ":ref:`genindex`"
 
 #: ../../index.rst:113
 msgid ":ref:`modindex`"
-msgstr ""
+msgstr ":ref:`modindex`"
 
 #: ../../index.rst:114
 msgid ":ref:`search`"
-msgstr ""
+msgstr ":ref:`search`"

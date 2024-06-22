@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the gspread package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Naoki Asano, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-02 14:47+0900\n"
 "PO-Revision-Date: 2024-06-02 05:58+0000\n"
+"Last-Translator: Naoki Asano, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/asano-naoki/teams/193369/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,35 +23,39 @@ msgstr ""
 
 #: ../../oauth2.rst:2
 msgid "Authentication"
-msgstr ""
+msgstr "認証"
 
 #: ../../oauth2.rst:4
 msgid ""
 "To access spreadsheets via Google Sheets API you need to authenticate and "
 "authorize your application."
-msgstr ""
+msgstr "Google Sheets APIを通じてスプレッドシートにアクセスするためには、認証と認可を適切に行わなければなりません。"
 
 #: ../../oauth2.rst:6
 msgid ""
 "If you plan to access spreadsheets on behalf of a bot account use "
 ":ref:`Service Account <service-account>`."
 msgstr ""
+"botアカウントでスプレッドシートにアクセスするなら、 :ref:`サービスアカウント <service-account>`  "
+"をお使いください（訳注：認証を自動的に行うならこの方法になります）。"
 
 #: ../../oauth2.rst:7
 msgid ""
 "If you'd like to access spreadsheets on behalf of end users (including "
 "yourself) use :ref:`OAuth Client ID <oauth-client-id>`."
 msgstr ""
+"ユーザーアカウント（開発者のユーザーアカウントを含む）でスプレッドシートにアクセスするなら、 :ref:`OAuth Client ID <oauth-"
+"client-id>`  をお使いください（訳注：定期的にユーザーアカウントでの認証を求められます）。"
 
 #: ../../oauth2.rst:8
 msgid ""
 "If you'd like to **only** open public spreadsheets use :ref:`API key <api-"
 "key>`"
-msgstr ""
+msgstr "公開しているスプレッドシート「だけ」を扱うのであれば、 :ref:`API key <api-key>` をお使いください。"
 
 #: ../../oauth2.rst:13
 msgid "Enable API Access for a Project"
-msgstr ""
+msgstr "プロジェクトのAPIアクセスの有効化"
 
 #: ../../oauth2.rst:15
 msgid ""
@@ -55,22 +63,24 @@ msgid ""
 "<https://console.developers.google.com/>`_ and create a new project (or "
 "select the one you already have)."
 msgstr ""
+"`Google Developers Console <https://console.developers.google.com/>`_ "
+"に移動して、新しいプロジェクトを作成するか、既存のプロジェクトを選択してください。"
 
 #: ../../oauth2.rst:17
 msgid ""
 "In the box labeled \"Search for APIs and Services\", search for \"Google "
 "Drive API\" and enable it."
-msgstr ""
+msgstr "検索ボックスに「Google Drive API」と入力して検索し、これを有効にしてください。"
 
 #: ../../oauth2.rst:19
 msgid ""
 "In the box labeled \"Search for APIs and Services\", search for \"Google "
 "Sheets API\" and enable it."
-msgstr ""
+msgstr "検索ボックスに「Google Sheets API」と入力して検索し、これを有効にしてください。"
 
 #: ../../oauth2.rst:25
 msgid "For Bots: Using Service Account"
-msgstr ""
+msgstr "サービスアカウント（botアカウント）"
 
 #: ../../oauth2.rst:27
 msgid ""
@@ -78,6 +88,7 @@ msgid ""
 "a non-human user that needs to authenticate and be authorized to access data"
 " in Google APIs [sic]."
 msgstr ""
+"サービスアカウントは、Google APIにアクセスする際の認証・認可に必要となる、人間のユーザーではない特別な種類のGoogleアカウントです。"
 
 #: ../../oauth2.rst:29
 msgid ""
@@ -85,54 +96,56 @@ msgid ""
 "spreadsheet until you share it with this account. Just like any other Google"
 " account."
 msgstr ""
+"開発者のユーザーアカウントとは別個のアカウントですから、デフォルトのままではスプレッドシートにアクセスできません。人間のユーザーアカウントとスプレッドシートを共有するときと同じように、このサービスアカウントとスプレッドシートを共有する必要があります。"
 
 #: ../../oauth2.rst:31 ../../oauth2.rst:260
 msgid "Here's how to get one:"
-msgstr ""
+msgstr "以下に手順を示します。"
 
 #: ../../oauth2.rst:33 ../../oauth2.rst:144 ../../oauth2.rst:262
 msgid ":ref:`enable-api-access` if you haven't done it yet."
-msgstr ""
+msgstr ":ref:`enable-api-access` の手順を完了させてください。"
 
 #: ../../oauth2.rst:35
 msgid ""
 "Go to \"APIs & Services > Credentials\" and choose \"Create credentials > "
 "Service account key\"."
-msgstr ""
+msgstr "「API とサービス > 認証情報」から、「認証情報を作成 > サービス アカウント」をクリックします。"
 
 #: ../../oauth2.rst:37
 msgid "Fill out the form"
-msgstr ""
+msgstr "空欄を埋めます。"
 
 #: ../../oauth2.rst:39
 msgid "Click \"Create\" and \"Done\"."
-msgstr ""
+msgstr "「完了」をクリックします。"
 
 #: ../../oauth2.rst:41
 msgid "Press \"Manage service accounts\" above Service Accounts."
-msgstr ""
+msgstr "「サービス アカウントを管理」をクリックします。"
 
 #: ../../oauth2.rst:43
 msgid ""
 "Press on **⋮** near recently created service account and select \"Manage "
 "keys\" and then click on \"ADD KEY > Create new key\"."
-msgstr ""
+msgstr "新しく作成したサービスアカウントの **⋮** をクリックし、「鍵を管理」から「鍵を追加」をクリックして、新しい鍵を作成します。"
 
 #: ../../oauth2.rst:45
 msgid "Select JSON key type and press \"Create\"."
-msgstr ""
+msgstr "キーのタイプで「JSON」を選択し、「作成」を押します。"
 
 #: ../../oauth2.rst:47
 msgid ""
 "You will automatically download a JSON file with credentials. It may look "
 "like this:"
-msgstr ""
+msgstr "機密情報が書かれたJSONファイルが自動的にダウンロードされます。次のような内容になっています。"
 
 #: ../../oauth2.rst:61
 msgid ""
 "Remember the path to the downloaded credentials file. Also, in the next step"
 " you'll need the value of *client_email* from this file."
 msgstr ""
+"JSONファイルをダウンロードしたパス（場所）を覚えておいてください。そのファイル中の\"client_email\"の値（メールアドレス）をすぐあとで使用します。"
 
 #: ../../oauth2.rst:63
 msgid ""
@@ -142,6 +155,9 @@ msgid ""
 "exception when trying to access this spreadsheet from your application or a "
 "script."
 msgstr ""
+"【重要】gspreadで扱うスプレッドシートについては、一つ上の手順で取得した *client_email* "
+"の値（メールアドレス）と共有するようにしてください。ほかのユーザーとスプレッドシートを共有するのと同じ要領でメールアドレスを追加します。この手順を経なければ、gspreadを用いてスプレッドシートにアクセスしようとしたときに、例外"
+" ``gspread.exceptions.SpreadsheetNotFound`` が生じます。"
 
 #: ../../oauth2.rst:65
 msgid ""
@@ -149,24 +165,29 @@ msgid ""
 "Windows users should put this file to "
 "``%APPDATA%\\gspread\\service_account.json``."
 msgstr ""
+"Windows環境以外では、先ほどダウンロードしたJSONファイルを "
+"``~/.config/gspread/service_account.json`` に移動させてください。Windows環境では、 "
+"``%APPDATA%\\gspread\\service_account.json`` に移動させてください。"
 
 #: ../../oauth2.rst:67 ../../oauth2.rst:158 ../../oauth2.rst:277
 msgid "Create a new Python file with this code:"
-msgstr ""
+msgstr "以下のコードを書いたPythonファイルを作成してください。"
 
 #: ../../oauth2.rst:79
 msgid "Ta-da!"
-msgstr ""
+msgstr "これでPythonからGoggleスプレッドシートにアクセスできました。"
 
 #: ../../oauth2.rst:82
 msgid ""
 "If you want to store the credentials file somewhere else, specify the path "
 "to `service_account.json` in :meth:`~gspread.service_account`: ::"
 msgstr ""
+"機密情報が記載されたJSONファイルを別の場所に保管したい場合は、`service_account.json` のパスを "
+":meth:`~gspread.service_account` で指定してください。"
 
 #: ../../oauth2.rst:87 ../../oauth2.rst:182
 msgid "Make sure you store the credentials file in a safe place."
-msgstr ""
+msgstr "安全な場所に保管するようにしてください。"
 
 #: ../../oauth2.rst:89
 msgid ""
@@ -174,10 +195,12 @@ msgid ""
 "credentials and authorizes gspread. Similarly to the code that has been used"
 " for authentication prior to the gspread version 3.6:"
 msgstr ""
+"参考までにお伝えしますと、:meth:`~gspread.service_account` "
+"が、JSONファイルから機密情報を読み込み、gspreadを認証しています。gspreadのバージョン3.6以前で開発者が実装していた以下のようなコードを背後で実行しています。"
 
 #: ../../oauth2.rst:108
 msgid "There is also the option to pass credentials as a dictionary:"
-msgstr ""
+msgstr "機密情報をディクショナリとして渡す方法もあります。"
 
 #: ../../oauth2.rst:131
 msgid ""
@@ -189,10 +212,15 @@ msgid ""
 "for you, but you can change your code to use the new credentials to make "
 "sure nothing breaks in the future."
 msgstr ""
+"gspreadの旧バージョンでは `oauth2client <https://github.com/google/oauth2client>`_ "
+"を使っていました。Googleはこれを `非推奨 <https://google-"
+"auth.readthedocs.io/en/latest/oauth2client-deprecation.html>`_ とし、その代わりに "
+"`google-auth` を使うことを推奨しています。 `oauth2client` を使っていても `google-auth` "
+"に変換されますが、将来的にも適切に動作するよう新しい方法に切り替えてもよいかもしれません。"
 
 #: ../../oauth2.rst:140
 msgid "For End Users: Using OAuth Client ID"
-msgstr ""
+msgstr "ユーザーアカウント（OAuth Client IDを使用）"
 
 #: ../../oauth2.rst:142
 msgid ""
@@ -201,12 +229,13 @@ msgid ""
 "application or a script will ask the end user (or yourself if you're running"
 " it) to grant access to the user's data."
 msgstr ""
+"エンドユーザーに代わってgspreadがスプレッドシートにアクセスするならこちらになります。エンドユーザー（開発者が実行するなら開発者）はデータへのアクセスを許可するかどうか尋ねられます。"
 
 #: ../../oauth2.rst:145
 msgid ""
 "Go to \"APIs & Services > OAuth Consent Screen.\" Click the button for "
 "\"Configure Consent Screen\"."
-msgstr ""
+msgstr "「API とサービス  > OAuth 同意画面」から、Externalを選択して「作成」ボタンを押します。"
 
 #: ../../oauth2.rst:147
 msgid ""
@@ -214,48 +243,57 @@ msgid ""
 "\"User support email\" and \"Developer contact information\". Click \"SAVE "
 "AND CONTINUE\"."
 msgstr ""
+"「1 OAuth consent "
+"screen」タブで、アプリ名とユーザーサポートメールとデベロッパーの連絡先情報を入力し、「保存して次へ」をクリックします。"
 
 #: ../../oauth2.rst:148
 msgid ""
 "There is no need to fill in anything in the tab \"2 Scopes\", just click "
 "\"SAVE AND CONTINUE\"."
-msgstr ""
+msgstr "「2 Scopes」タブでは何も入力しなくてもよいので、「保存して次へ」をクリックします。"
 
 #: ../../oauth2.rst:149
 msgid ""
 "In the tab \"3 Test users\", add the Google account email of the end user, "
 "typically your own Google email. Click \"SAVE AND CONTINUE\"."
 msgstr ""
+"「3 Test "
+"users」タグで、Googleアカウントのメールアドレス（自分がGoogleで使っているメールアドレス）を入力し、「保存して次へ」をクリックします。"
 
 #: ../../oauth2.rst:150
 msgid "Double check the \"4 Summary\" presented and click \"BACK TO DASHBOARD\"."
-msgstr ""
+msgstr "「4 Summary」で確認してから、 「BACK TO DASHBOARD」をクリックします。"
 
 #: ../../oauth2.rst:152
 msgid "Go to \"APIs & Services > Credentials\""
-msgstr ""
+msgstr "「API とサービス > 認証情報」に移動します。"
 
 #: ../../oauth2.rst:153
 msgid "Click \"+ Create credentials\" at the top, then select \"OAuth client ID\"."
-msgstr ""
+msgstr "画面上部の「認証情報を作成」をクリックし、「OAuth クライアント ID」を選びます。"
 
 #: ../../oauth2.rst:154
 msgid ""
 "Select \"Desktop app\", name the credentials and click \"Create\". Click "
 "\"Ok\" in the \"OAuth client created\" popup."
 msgstr ""
+"「デスクトップ アプリ」を選び、適当な名前をつけて「作成」ボタンを押すと、「OAuth "
+"クライアントを作成しました」というポップアップが表示されるので、「OK」をクリックします。"
 
 #: ../../oauth2.rst:155
 msgid ""
 "Download the credentials by clicking the Download JSON button in \"OAuth 2.0"
 " Client IDs\" section."
-msgstr ""
+msgstr "「OAuth 2.0 クライアント ID」セクションのダウンロードボタンをクリックし、JSONファイルをダウンロードします。"
 
 #: ../../oauth2.rst:156
 msgid ""
 "Move the downloaded file to ``~/.config/gspread/credentials.json``. Windows "
 "users should put this file to ``%APPDATA%\\gspread\\credentials.json``."
 msgstr ""
+"Windows環境以外では、先ほどダウンロードしたJSONファイルを ``~/.config/gspread/credentials.json`` "
+"に移動させてください。Windows環境では、  ``%APPDATA%\\gspread\\credentials.json`` "
+"に移動させてください。"
 
 #: ../../oauth2.rst:170
 msgid ""
@@ -265,6 +303,8 @@ msgid ""
 "You only need to do authorization in the browser once, following runs will "
 "reuse stored credentials."
 msgstr ""
+"このコードを実行すると、ブラウザが立ち上がり、認証を求められます。立ち上がったウェブページの指示に従ってください。認証が完了すると、認証機密情報が保存されたディレクトリが"
+" `credentials.json` と同じ階層に作られます。ブラウザで一度認証をすれば、引き続く実行では保存された認証機密情報が再利用されます。。"
 
 #: ../../oauth2.rst:174
 msgid ""
