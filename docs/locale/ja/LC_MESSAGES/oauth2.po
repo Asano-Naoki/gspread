@@ -44,14 +44,14 @@ msgid ""
 "If you'd like to access spreadsheets on behalf of end users (including "
 "yourself) use :ref:`OAuth Client ID <oauth-client-id>`."
 msgstr ""
-"ユーザーアカウント（開発者のユーザーアカウントを含む）でスプレッドシートにアクセスするなら、 :ref:`OAuth Client ID <oauth-"
+"ユーザーアカウント（開発者のユーザーアカウントを含む）でスプレッドシートにアクセスするなら、 :ref:`OAuth クライアント ID <oauth-"
 "client-id>`  をお使いください（訳注：定期的にユーザーアカウントでの認証を求められます）。"
 
 #: ../../oauth2.rst:8
 msgid ""
 "If you'd like to **only** open public spreadsheets use :ref:`API key <api-"
 "key>`"
-msgstr "公開しているスプレッドシート「だけ」を扱うのであれば、 :ref:`API key <api-key>` をお使いください。"
+msgstr "公開しているスプレッドシート「だけ」を扱うのであれば、 :ref:`API キー <api-key>` をお使いください。"
 
 #: ../../oauth2.rst:13
 msgid "Enable API Access for a Project"
@@ -200,7 +200,7 @@ msgstr ""
 
 #: ../../oauth2.rst:108
 msgid "There is also the option to pass credentials as a dictionary:"
-msgstr "機密情報をディクショナリとして渡す方法もあります。"
+msgstr "機密情報をPythonのディクショナリとして渡す方法もあります。"
 
 #: ../../oauth2.rst:131
 msgid ""
@@ -220,7 +220,7 @@ msgstr ""
 
 #: ../../oauth2.rst:140
 msgid "For End Users: Using OAuth Client ID"
-msgstr "ユーザーアカウント（OAuth Client IDを使用）"
+msgstr "ユーザーアカウント（OAuth クライアント IDを使用）"
 
 #: ../../oauth2.rst:142
 msgid ""
@@ -303,8 +303,9 @@ msgid ""
 "You only need to do authorization in the browser once, following runs will "
 "reuse stored credentials."
 msgstr ""
-"このコードを実行すると、ブラウザが立ち上がり、認証を求められます。立ち上がったウェブページの指示に従ってください。認証が完了すると、認証機密情報が保存されたディレクトリが"
-" `credentials.json` と同じ階層に作られます。ブラウザで一度認証をすれば、引き続く実行では保存された認証機密情報が再利用されます。。"
+"このコードを実行すると、ブラウザが立ち上がり、認証を求められます。立ち上がったウェブページの指示に従ってください。認証が完了すると、認証済み機密情報が "
+"`credentials.json` "
+"と同じディレクトリに保存されます。ブラウザで一度認証をすれば、引き続く実行では保存された認証済み機密情報が再利用されます。"
 
 #: ../../oauth2.rst:174
 msgid ""
@@ -312,6 +313,8 @@ msgid ""
 "to `credentials.json` and `authorized_user.json` in :meth:`~gspread.oauth`: "
 "::"
 msgstr ""
+"機密情報が記載されたJSONファイルを別の場所に保管したい場合は、 `credentials.json` と "
+"`authorized_user.json` のパスを :meth:`~gspread.oauth` で指定してください。"
 
 #: ../../oauth2.rst:184
 msgid ""
@@ -319,6 +322,7 @@ msgid ""
 " This way you don't have to store them as files or you can store them in "
 "your favorite password manager."
 msgstr ""
+"機密情報をPythonのディクショナリとして渡す方法もあります。こうすれば機密情報をファイルとして保存しなくてもよく、パスワードマネージャーで保存できます。"
 
 #: ../../oauth2.rst:206
 msgid ""
@@ -327,6 +331,8 @@ msgid ""
 "second argument in your next `oauth` request to be directly authenticated "
 "and skip the flow."
 msgstr ""
+"一度認証したときに返される認証済み機密情報のJSON文字列を保存するようにしてください。次に `oauth` "
+"リクエストを実行する際の第二引数としてそのJSON文字列を渡すと、ブラウザを立ち上げて認証するという手順なしに直接認証できます。"
 
 #: ../../oauth2.rst:210
 msgid ""
@@ -334,18 +340,22 @@ msgid ""
 "credentials. Be aware, if the authorized user has expired your credentials "
 "are required to authenticate again."
 msgstr ""
+"ユーザー認証が失効する前に２回目の認証をする場合は、（認証済み機密情報を再利用するのでオリジナルの）機密情報は不要です。ただし、ユーザー認証が失効すると、次の認証では（オリジナルの）機密情報が必要になります。"
 
 #: ../../oauth2.rst:244
 msgid ""
 "Security credentials file and authorized credentials contain sensitive data."
 " **Do not share these files with others** and treat them like private keys."
 msgstr ""
+"機密情報ファイルと認証済み機密情報ファイルの取り扱いには注意してください。 **これらのファイルを共有してはいけません。** "
+"秘密鍵と同じように厳重に管理してください。"
 
 #: ../../oauth2.rst:246
 msgid ""
 "If you are concerned about giving the application access to your "
 "spreadsheets and Drive, use Service Accounts."
 msgstr ""
+"アプリケーションがGoogle Sheets（スプレッドシート）やGoogle Driveにアクセスするのであれば、サービスアカウントを使ってください。"
 
 #: ../../oauth2.rst:249
 msgid ""
@@ -355,53 +365,60 @@ msgid ""
 " Click **Edit on GitHub** in the top right corner of the page, make it "
 "better and submit a PR."
 msgstr ""
+"Google Developers Consoleのユーザーインターフェイスが変わってしまっているかもしれません。このドキュメントがGoogle "
+"Developers "
+"Consoleのユーザーインターフェイスと食い違っていたら、このドキュメントを更新してください。ドキュメントへの改善提案は歓迎です。このページの右上にある"
+" **Edit on GitHub**  をクリックして、改善提案のプルリクエストを送ってください。"
 
 #: ../../oauth2.rst:256
 msgid "For public spreadsheets only"
-msgstr ""
+msgstr "公開しているスプレッドシート"
 
 #: ../../oauth2.rst:258
 msgid ""
 "An API key is a token that allows an application to open public spreadsheet "
 "files."
-msgstr ""
+msgstr "APIキーを利用すると、公開しているスプレッドシートにアクセスできます。"
 
 #: ../../oauth2.rst:264
 msgid ""
 "Go to \"APIs & Services > Credentials\" and choose \"Create credentials > "
 "API key\""
-msgstr ""
+msgstr "「API とサービス > 認証情報」から、「認証情報を作成 > API キー」をクリックします。"
 
 #: ../../oauth2.rst:266
 msgid "A pop-up should display your newly created key."
-msgstr ""
+msgstr "新たに作成したAPIキーがポップアップで表示されます。"
 
 #: ../../oauth2.rst:268
 msgid "Copy the key."
-msgstr ""
+msgstr "表示されているAPIキーをコピーします。"
 
 #: ../../oauth2.rst:270
 msgid "That's it your key is created."
-msgstr ""
+msgstr "これが作成したAPIキーです。"
 
 #: ../../oauth2.rst:274
 msgid ""
 "You can access your key any time later, come back to the \"APIs & Services >"
 " Credentials\" page, you'll be able to see your key again."
-msgstr ""
+msgstr "あとでAPIキーにアクセスすることもできます。「API とサービス > 認証情報」ページに戻るとAPIキーを表示できます。"
 
 #: ../../oauth2.rst:289
 msgid "Ta-da !"
-msgstr ""
+msgstr "できました。"
 
 #: ../../oauth2.rst:293
 msgid ""
 "You can only open public keys, this means you can only open spreadsheet "
 "files using the methods: ``gc.open_by_key`` and ``gc.open_by_url``."
 msgstr ""
+"公開されているスプレッドシートキーを使ってスプレッドシートファイルにアクセスするので、 ``gc.open_by_key`` と "
+"``gc.open_by_url`` メソッドを使って公開されているスプレッドシートにアクセスすることしかできません。"
 
 #: ../../oauth2.rst:296
 msgid ""
 "The method ``gc.open()`` searches your private files to find the one with a "
 "matching name so it will never work."
 msgstr ""
+"``gc.open()`` メソッドはプライベートファイルを探索して名前が一致するファイルを見つけ出すので、この方法ではアクセスできません。"

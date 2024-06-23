@@ -39,7 +39,7 @@ msgstr "Google Sheets API v4対応"
 
 #: ../../index.rst:9
 msgid "Open a spreadsheet by title, key or url."
-msgstr "タイトル、スプレッドシートキー、URLからのアクセス"
+msgstr "ファイル名、スプレッドシートキー、URLからのアクセス"
 
 #: ../../index.rst:10
 msgid "Read, write, and format cell ranges."
