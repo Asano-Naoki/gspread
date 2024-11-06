@@ -289,7 +289,7 @@ msgstr "セルを検索する"
 
 #: ../../user-guide.rst:238
 msgid "Find a cell matching a string:"
-msgstr ""
+msgstr "文字列にマッチするセルを検索します。"
 
 #: ../../user-guide.rst:246
 msgid "Find a cell matching a regular expression"
