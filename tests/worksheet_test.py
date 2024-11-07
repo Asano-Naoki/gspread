@@ -1,13 +1,19 @@
 import itertools
+import pickle  # nosec
 import random
 import re
 from inspect import signature
+from typing import Generator
 
 import pytest
+from pytest import FixtureRequest
 
 import gspread
 from gspread import utils
+from gspread.client import Client
 from gspread.exceptions import APIError, GSpreadException
+from gspread.spreadsheet import Spreadsheet
+from gspread.worksheet import Worksheet
 
 from .conftest import I18N_STR, GspreadTest
 
@@ -15,13 +21,16 @@ from .conftest import I18N_STR, GspreadTest
 class WorksheetTest(GspreadTest):
     """Test for gspread.Worksheet."""
 
+    spreadsheet: Spreadsheet
+    sheet: Worksheet
+
     @pytest.fixture(scope="function", autouse=True)
-    def init(self, client, request):
+    def init(
+        self: "WorksheetTest", client: Client, request: FixtureRequest
+    ) -> Generator[None, None, None]:
         name = self.get_temporary_spreadsheet_title(request.node.name)
         WorksheetTest.spreadsheet = client.create(name)
-        WorksheetTest.sheet: gspread.worksheet.Worksheet = (
-            WorksheetTest.spreadsheet.sheet1
-        )
+        WorksheetTest.sheet = WorksheetTest.spreadsheet.sheet1
 
         yield
 
@@ -185,6 +194,43 @@ class WorksheetTest(GspreadTest):
         self.sheet.merge_cells("A1:B2")
         self.sheet.merge_cells("C2:D2")
         self.sheet.merge_cells("C3:C4")
+
+        expected_merge = [
+            ["1", "1", "", ""],
+            ["1", "1", "title", "title"],
+            ["", "", "2", ""],
+            ["num", "val", "2", "0"],
+        ]
+
+        values = self.sheet.get_values()
+        values_with_merged = self.sheet.get_values(combine_merged_cells=True)
+
+        self.assertEqual(values, sheet_data)
+        self.assertEqual(values_with_merged, expected_merge)
+
+        # test with cell address
+        values_with_merged = self.sheet.get_values("A1:D4", combine_merged_cells=True)
+        self.assertEqual(values_with_merged, expected_merge)
+
+    @pytest.mark.vcr()
+    def test_batch_merged_cells(self):
+        self.sheet.resize(4, 4)
+        sheet_data = [
+            ["1", "", "", ""],
+            ["", "", "title", ""],
+            ["", "", "2", ""],
+            ["num", "val", "", "0"],
+        ]
+
+        self.sheet.update(sheet_data, "A1:D4")
+
+        self.sheet.batch_merge(
+            [
+                {"range": "A1:B2"},
+                {"range": "C2:D2"},
+                {"range": "C3:C4"},
+            ]
+        )
 
         expected_merge = [
             ["1", "1", "", ""],
@@ -1623,20 +1669,63 @@ class WorksheetTest(GspreadTest):
     @pytest.mark.vcr()
     def test_get_notes(self):
         w = self.spreadsheet.worksheets()[0]
-        notes = {"A1": "read my note", "B2": "Or don't"}
-        notes_array = [
+        notes = {
+            "A1": "read my note",
+            "B2": "Or don't",
+            "A3": "another note",
+            "C3": "test",
+        }
+        expected_notes = [
             [notes["A1"]],
             ["", notes["B2"]],
+            ["another note", "", "test"],
+        ]
+
+        expected_range_notes = [
+            ["", "Or don't"],
+            ["another note", "", "test"],
         ]
 
         empty_notes = w.get_notes()
 
         w.insert_notes(notes)
+        range_notes = w.get_notes(grid_range="A2:C3")
 
         all_notes = w.get_notes()
 
         self.assertEqual(empty_notes, [[]])
-        self.assertEqual(all_notes, notes_array)
+        self.assertEqual(all_notes, expected_notes)
+        self.assertEqual(range_notes, expected_range_notes)
+
+    @pytest.mark.vcr()
+    def test_get_notes_2nd_sheet(self):
+        w2 = self.spreadsheet.add_worksheet("worksheet 2", 3, 3)
+
+        notes = {
+            "A1": "the first time",
+            "B3": "two sheets",
+        }
+
+        expected_notes = [
+            ["the first time"],
+            [],
+            ["", "two sheets"],
+        ]
+        expected_range_notes = [
+            [],
+            ["", "two sheets"],
+        ]
+
+        empty_notes = w2.get_notes()
+
+        w2.insert_notes(notes)
+
+        all_notes = w2.get_notes()
+        range_notes = w2.get_notes(grid_range="A2:C3")
+
+        self.assertEqual(empty_notes, [[]])
+        self.assertEqual(all_notes, expected_notes)
+        self.assertEqual(range_notes, expected_range_notes)
 
     @pytest.mark.vcr()
     def test_batch_clear(self):
@@ -1911,4 +2000,10 @@ class WorksheetTest(GspreadTest):
             {"spreadsheetId": self.spreadsheet.id, "replies": [{}]},
         )
 
-        self.assertRaises(APIError, sheet.update, values="X", range_name="A1")
+        with self.assertRaises(APIError) as ex:
+            sheet.update(values="X", range_name="A1")
+
+        # Ensure that the exception is able to be pickled and unpickled
+        # Further ensure we are able to access the exception's properties after pickling
+        reloaded_exception = pickle.loads(pickle.dumps(ex.exception))  # nosec
+        self.assertEqual(reloaded_exception.args[0]["status"], "INVALID_ARGUMENT")
