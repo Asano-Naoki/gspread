@@ -293,15 +293,15 @@ msgstr "文字列にマッチするセルを検索します。"
 
 #: ../../user-guide.rst:246
 msgid "Find a cell matching a regular expression"
-msgstr ""
+msgstr "正規表現にマッチするセルを検索します。"
 
 #: ../../user-guide.rst:253
 msgid "`find` returns `None` if value is not Found"
-msgstr ""
+msgstr "マッチしなければ、`find` は `None` を返します。"
 
 #: ../../user-guide.rst:256
 msgid "Finding All Matched Cells"
-msgstr ""
+msgstr "マッチするセルをすべて検索する"
 
 #: ../../user-guide.rst:258
 msgid "Find all cells matching a string:"
